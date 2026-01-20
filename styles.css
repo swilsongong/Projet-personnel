@@ -1,0 +1,269 @@
+/*
+  styles.css — simple, high-contrast, large-type styles
+  - Minimum 20px base font
+  - Calm color palette (blues/greens)
+  - Clear focus states and large hit targets
+*/
+
+:root {
+  --bg: #f1f8fb;         /* light blue background */
+  --card: #ffffff;       /* white cards for contrast */
+  --text: #0b3d4a;       /* deep teal text */
+  --muted: #2d6a73;      /* muted teal */
+  --accent: #2ea3a1;     /* teal-green accent */
+  --accent-strong: #1e7b79;
+  --focus: #2ea3a1;      /* focus ring color */
+  --border: #d8e8ee;
+}
+
+/* Base layout */
+html { font-size: 20px; } /* minimum 20px */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background: linear-gradient(90deg, #cfeff5, #dff7f3);
+  border-bottom: 1px solid var(--border);
+}
+
+.brand__appname {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.brand__subtitle {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.lang { display: inline-flex; gap: 0.5rem; }
+.lang__btn {
+  font-size: 1rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 999px;
+  border: 2px solid var(--accent);
+  background: #fff;
+  color: var(--text);
+  cursor: pointer;
+}
+.lang__btn[aria-pressed="true"] {
+  background: var(--accent);
+  color: white;
+}
+.lang__btn:focus { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.container { max-width: 960px; margin: 0 auto; padding: 1rem; }
+
+.title {
+  text-align: center;
+  font-size: 1.8rem; /* big title */
+  margin: 1rem 0 1.2rem;
+}
+
+/* Search */
+.search { margin: 0 auto 1.5rem; max-width: 720px; }
+.search__label { display: block; margin-bottom: 0.4rem; }
+.search__row { display: flex; gap: 0.5rem; }
+.search__input {
+  flex: 1;
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.7rem;
+  border: 2px solid var(--border);
+  font-size: 1rem;
+}
+.search__btn {
+  padding: 0.7rem 1rem;
+  border-radius: 0.7rem;
+  border: 2px solid var(--accent);
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+.search__btn:focus { outline: 3px solid var(--focus); outline-offset: 2px; }
+.search__hint { color: var(--muted); margin-top: 0.3rem; font-size: 0.9rem; }
+
+/* Section headings */
+.h2 {
+  font-size: 1.25rem;
+  margin: 1rem 0 0.6rem;
+  font-weight: 900;
+  text-align: left;
+}
+
+/* Home progress */
+.homeProgress {
+  border: 2px solid var(--border);
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0 auto 1.2rem;
+}
+.homeProgress__grid { display: grid; gap: 0.6rem; }
+
+.pRow {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr auto auto;
+  gap: 0.6rem;
+  align-items: center;
+}
+@media (max-width: 560px) {
+  .pRow { grid-template-columns: 1fr; gap: 0.35rem; }
+}
+
+.pLabel { font-weight: 800; }
+.pBar {
+  height: 18px;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background: #f3fbfc;
+  overflow: hidden;
+}
+.pFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-strong));
+  width: 0%;
+}
+.pPct { font-weight: 900; color: var(--muted); }
+.pMark { font-size: 1.2rem; }
+
+.badges { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.7rem; }
+.badge { border: 2px solid var(--border); border-radius: 1rem; padding: 0.8rem; background: #f7fbfc; }
+.badge--on { border-color: var(--accent); background: #e6faf7; }
+.badge__title { font-weight: 900; }
+.badge__desc { color: var(--muted); font-size: 0.9rem; margin-top: 0.2rem; }
+
+/* Celebration (confetti canvas) */
+.celebrate-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+.celebrate-canvas.on { opacity: 1; }
+
+/* Menu grid */
+.menu__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  background: var(--card);
+  border: 2px solid var(--border);
+  cursor: pointer;
+}
+.card:focus { outline: 4px solid var(--focus); outline-offset: 3px; }
+.card:hover { border-color: var(--accent); }
+
+.card__icon svg { width: 48px; height: 48px; fill: var(--accent-strong); }
+.card__label { font-weight: 700; text-align: center; }
+
+/* Reusable big button (used across pages) */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  min-height: 52px;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  border: 2px solid var(--accent);
+  background: #fff;
+  color: var(--text);
+  font-weight: 900;
+  cursor: pointer;
+}
+.pill.primary { background: var(--accent); color: #fff; }
+.pill:focus { outline: 4px solid var(--focus); outline-offset: 2px; }
+
+/* Completion panel */
+.completeBox {
+  border: 2px solid var(--border);
+  border-radius: 1rem;
+  background: #fff;
+  padding: 1rem;
+}
+.completeBox__title { font-weight: 1000; font-size: 1.1rem; }
+.completeBox__sub { color: var(--muted); margin-top: 0.35rem; }
+.completeBox__done { margin-top: 0.6rem; font-weight: 900; color: var(--accent-strong); }
+
+.reviewQuiz { margin-top: 0.8rem; display: grid; gap: 0.7rem; }
+.reviewQ { border: 2px solid var(--border); border-radius: 1rem; padding: 0.8rem; background: #f7fbfc; }
+.reviewQ__q { font-weight: 900; }
+.reviewQ__opts { display: grid; gap: 0.45rem; margin-top: 0.5rem; }
+.reviewQ__fb { margin-top: 0.45rem; font-weight: 900; }
+
+.output { margin-top: 1rem; min-height: 1.2rem; color: var(--muted); }
+
+.footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: var(--muted);
+}
+
+.footer__links { margin-top: 0.5rem; }
+.footer__link { color: var(--accent-strong); font-weight: 800; }
+.footer__link:focus { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+/* Voice mic bar */
+.voicebar { display: flex; justify-content: center; margin-bottom: 0.6rem; }
+.voiceMic { font-size: 1.05rem; }
+
+/* Voice modal */
+.voiceModal { position: fixed; inset: 0; z-index: 9998; display: none; }
+.voiceModal.on { display: block; }
+.voiceModal__backdrop { position: absolute; inset: 0; background: rgba(0,0,0,0.35); }
+.voiceModal__panel { position: relative; max-width: 980px; margin: 5vh auto; background: #fff; border-radius: 1rem; border: 2px solid var(--border); box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
+.voiceModal__head { display: flex; align-items: center; justify-content: space-between; padding: 0.8rem 1rem; border-bottom: 2px solid var(--border); }
+.voiceModal__title { font-weight: 1000; }
+.voiceModal__body { padding: 1rem; }
+.voiceLayout { display: grid; grid-template-columns: 1.1fr 1fr; gap: 0.8rem; }
+@media (max-width: 860px) { .voiceLayout { grid-template-columns: 1fr; } }
+.voiceList { display: grid; gap: 0.6rem; }
+.voiceCard { border: 2px solid var(--border); border-radius: 1rem; padding: 0.8rem; background: #f7fbfc; }
+.voiceCard__title { font-weight: 900; }
+.voiceCard__actions { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem; }
+.voiceCard__transcript { color: var(--muted); margin-top: 0.2rem; }
+.voiceCard__fb { font-weight: 900; margin-top: 0.4rem; }
+.voiceSim { border: 2px solid var(--border); border-radius: 1rem; min-height: 200px; background: #fff; padding: 0.8rem; overflow: auto; }
+.simLine { padding: 0.35rem 0.5rem; border-radius: 0.6rem; margin-bottom: 0.4rem; }
+.simLine.assistant { background: #e6faf7; }
+.simLine.user { background: #e3f2fd; }
+
+/* TTS controls */
+.ttsControl { position: fixed; bottom: 12px; right: 12px; z-index: 9997; background: #fff; border: 2px solid var(--border); border-radius: 1rem; padding: 0.6rem; box-shadow: 0 6px 16px rgba(0,0,0,0.12); }
+.ttsControl__title { font-weight: 900; font-size: 0.95rem; }
+.ttsControl__row { display: inline-flex; gap: 0.4rem; margin: 0.4rem 0; }
+.ttsPill[aria-pressed="true"] { background: var(--accent); color: #fff; }
+
+/* Speaker button (inline) */
+.ttsBtn { margin-left: 0.4rem; border: 2px solid var(--border); background: #fff; border-radius: 0.6rem; padding: 0.1rem 0.4rem; cursor: pointer; }
+.ttsBtn:focus { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+/* Make everything bigger on small screens for easier tapping */
+@media (max-width: 480px) {
+  html { font-size: 21px; }
+  .card__icon svg { width: 56px; height: 56px; }
+}

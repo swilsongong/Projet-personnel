@@ -1,0 +1,113 @@
+/* apps.css — Useful Apps page styles */
+
+.apptoolbar {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+  background: #eef7f8;
+}
+
+.searchrow {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.toggle { font-weight: 800; }
+.toggle input { width: 22px; height: 22px; vertical-align: middle; }
+
+.flow { margin-top: 0.8rem; }
+.flow__title { font-weight: 900; }
+.flow__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.6rem; margin-top: 0.4rem; }
+.flowbtn { min-height: 56px; border-radius: 1rem; border: 2px solid var(--border); background: #fff; font-weight: 900; text-align: left; padding: 0.8rem; cursor: pointer; }
+.flowbtn:hover { border-color: var(--accent); }
+
+.cat { margin: 1rem 0; border-radius: 1rem; overflow: hidden; border: 2px solid var(--border); }
+.cat__head { padding: 0.9rem 1rem; }
+.cat__hint { color: var(--muted); margin-top: 0.2rem; }
+
+.apps { padding: 0.9rem 1rem 1rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.8rem; }
+
+/* Color-coded sections */
+.sec--blue .cat__head { background: #e3f2fd; }
+.sec--green .cat__head { background: #e8f5e9; }
+.sec--gold .cat__head { background: #fff8e1; }
+.sec--teal .cat__head { background: #e0f2f1; }
+.sec--purple .cat__head { background: #f3e5f5; }
+.sec--orange .cat__head { background: #fff3e0; }
+
+.appcard { border-radius: 1rem; border: 2px solid var(--border); background: #fff; overflow: hidden; }
+.appcard[hidden] { display: none !important; }
+
+.appcard__head {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 52px 1fr auto;
+  gap: 0.6rem;
+  align-items: center;
+  min-height: 64px;
+  border: 0;
+  background: #ffffff;
+  cursor: pointer;
+  text-align: left;
+  padding: 0.8rem;
+}
+.appcard__head:focus { outline: 4px solid var(--focus); outline-offset: 2px; }
+
+.appname { font-weight: 900; }
+
+.icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 0.9rem;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  border: 2px solid var(--border);
+}
+.icon--yt { background: #ffebee; color: #b00020; }
+.icon--fb { background: #e3f2fd; color: #0d47a1; }
+.icon--msgr { background: #e3f2fd; color: #1565c0; }
+.icon--wechat { background: #e8f5e9; color: #2e7d32; }
+.icon--ig { background: #fff3e0; color: #6a1b9a; }
+.icon--chrono { background: #e8f5e9; color: #1b5e20; }
+.icon--transit { background: #e8f5e9; color: #1b5e20; }
+.icon--uber { background: #eceff1; color: #111; }
+.icon--taxi { background: #fff3e0; }
+.icon--rbc { background: #e3f2fd; }
+.icon--td { background: #e8f5e9; }
+.icon--scotia { background: #ffebee; }
+.icon--bmo { background: #e3f2fd; }
+.icon--cibc { background: #ffebee; }
+
+.badges { display: inline-flex; gap: 0.5rem; align-items: center; }
+.shield { font-weight: 900; }
+.shield.g { color: #1b5e20; }
+.shield.y { color: #f57f17; }
+.shield.r { color: #b00020; }
+.ease { font-weight: 900; padding: 0.2rem 0.5rem; border-radius: 999px; border: 2px solid var(--border); }
+.ease.e { background: #e8f5e9; }
+.ease.m { background: #fff8e1; }
+
+.appcard__body { padding: 0.8rem 0.9rem 1rem; }
+.actions { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.6rem; }
+
+.warn { border-radius: 0.9rem; border: 2px solid var(--border); padding: 0.8rem; }
+.warn--yellow { background: #fff8e1; border-color: #fbc02d; }
+
+.legend, .starter, .videos { margin: 1rem 0; }
+
+.videos__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.8rem; }
+.videoitem { border: 2px solid var(--border); border-radius: 1rem; padding: 0.8rem; background: #fff; }
+.vtitle { font-weight: 900; margin-bottom: 0.4rem; }
+.vrow { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; }
+.qr { width: 160px; height: 160px; border-radius: 0.6rem; border: 2px solid var(--border); background: #fff; }
+
+.bottom-nav { display: flex; gap: 0.6rem; justify-content: space-between; align-items: center; margin: 1rem 0; }
+
+/* Print */
+@media print {
+  .topbar, .apptoolbar, .bottom-nav, button, .qr { display: none !important; }
+  .appcard__body { display: block !important; }
+  .cat { break-inside: avoid; }
+}

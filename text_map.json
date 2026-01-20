@@ -1,0 +1,1292 @@
+{
+  "map": {
+    "Home": {
+      "fr": "Accueil",
+      "zh": "首页"
+    },
+    "Back": {
+      "fr": "Retour",
+      "zh": "返回"
+    },
+    "Next": {
+      "fr": "Suivant",
+      "zh": "下一步"
+    },
+    "Menu": {
+      "fr": "Menu",
+      "zh": "菜单"
+    },
+    "What do you need help with?": {
+      "fr": "De quoi avez-vous besoin?",
+      "zh": "您需要什么帮助？"
+    },
+    "Loading...": {
+      "fr": "Chargement...",
+      "zh": "加载中..."
+    },
+    "Welcome!": {
+      "fr": "Bienvenue !",
+      "zh": "欢迎！"
+    },
+    "Choose your path": {
+      "fr": "Choisissez votre parcours",
+      "zh": "选择您的学习路径"
+    },
+    "Language": {
+      "fr": "Langue",
+      "zh": "语言"
+    },
+    "AI Tools": {
+      "fr": "Outils d'IA",
+      "zh": "AI工具"
+    },
+    "Online Banking": {
+      "fr": "Banque en ligne",
+      "zh": "网上银行"
+    },
+    "Using Your Computer": {
+      "fr": "Utiliser votre ordinateur",
+      "zh": "使用电脑"
+    },
+    "Language Learning": {
+      "fr": "Apprendre le français",
+      "zh": "学习法语"
+    },
+    "Using Your Phone": {
+      "fr": "Utiliser votre téléphone",
+      "zh": "使用手机"
+    },
+    "Finding Transport": {
+      "fr": "Se déplacer à Montréal",
+      "zh": "蒙特利尔出行"
+    },
+    "Useful Apps": {
+      "fr": "Applications utiles",
+      "zh": "实用应用"
+    },
+    "Tips & Tricks": {
+      "fr": "Astuces & conseils",
+      "zh": "技巧与贴士"
+    },
+    "1 of 8 modules": {
+      "fr": "1 module sur 8",
+      "zh": "8个模块中的第1个"
+    },
+    "1 — Just starting": {
+      "fr": "1 — Débutant",
+      "zh": "1 — 刚开始"
+    },
+    "10 — I can have a simple chat!": {
+      "fr": "10 — Je peux avoir une conversation simple !",
+      "zh": "10 — 我能简单聊天！"
+    },
+    "3 — I know a few words": {
+      "fr": "3 — Je connais quelques mots",
+      "zh": "3 — 认识一些单词"
+    },
+    "5 — I can do simple tasks": {
+      "fr": "5 — Je peux faire des tâches simples",
+      "zh": "5 — 能完成简单任务"
+    },
+    "7 — I can handle small talk": {
+      "fr": "7 — Je peux faire la conversation",
+      "zh": "7 — 能进行日常对话"
+    },
+    "1. The Basics — What's What": {
+      "fr": "1. Les bases — repères",
+      "zh": "1. 基本认知"
+    },
+    "1. What is AI?": {
+      "fr": "1. Qu'est-ce que l'IA ?",
+      "zh": "1. 什么是AI？"
+    },
+    "1. Your Mindset: The Most Important Tool": {
+      "fr": "1. Votre état d'esprit : l'outil le plus important",
+      "zh": "1. 心态：最重要的工具"
+    },
+    "1. Turning It On & Off": {
+      "fr": "1. Allumer et éteindre",
+      "zh": "1. 开关机"
+    },
+    "1. Making Everything Bigger (Accessibility)": {
+      "fr": "1. Tout agrandir (Accessibilité)",
+      "zh": "1. 放大（无障碍）"
+    },
+    "2. Connecting to Wi‑Fi": {
+      "fr": "2. Se connecter au Wi-Fi",
+      "zh": "2. 连接 Wi-Fi"
+    },
+    "2. Using Your Mouse (or Trackpad)": {
+      "fr": "2. Utiliser votre souris (ou pavé tactile)",
+      "zh": "2. 使用鼠标（或触控板）"
+    },
+    "2. Practical Tech Tips": {
+      "fr": "2. Conseils pratiques",
+      "zh": "2. 实用科技小技巧"
+    },
+    "2. Choose an AI assistant": {
+      "fr": "2. Choisir un assistant IA",
+      "zh": "2. 选择一个AI助手"
+    },
+    "3. Using Your Keyboard": {
+      "fr": "3. Utiliser votre clavier",
+      "zh": "3. 使用键盘"
+    },
+    "3. Saving a Contact": {
+      "fr": "3. Enregistrer un contact",
+      "zh": "3. 保存联系人"
+    },
+    "3. Sending a Text Message": {
+      "fr": "3. Envoyer un message texte",
+      "zh": "3. 发送短信"
+    },
+    "3. Staying Safe & Organized": {
+      "fr": "3. Rester en sécurité et organisé(e)",
+      "zh": "3. 安全与整理"
+    },
+    "3. Common installation problems": {
+      "fr": "3. Problèmes d'installation courants",
+      "zh": "3. 常见安装问题"
+    },
+    "4. Understanding Your Desktop": {
+      "fr": "4. Comprendre votre bureau",
+      "zh": "4. 认识桌面"
+    },
+    "4. Taking a Photo": {
+      "fr": "4. Prendre une photo",
+      "zh": "4. 拍照"
+    },
+    "4. If You Get Lost in an App": {
+      "fr": "4. Si vous êtes perdu dans une app",
+      "zh": "4. 在App里迷路了"
+    },
+    "4. Navigating Montreal & Community": {
+      "fr": "4. Se déplacer à Montréal & communauté",
+      "zh": "4. 在蒙特利尔出行与社区"
+    },
+    "4. Practice: Try these AI prompts": {
+      "fr": "4. Pratique : essayez ces invites IA",
+      "zh": "4. 练习：试试这些提示语"
+    },
+    "5. How to Open Programs (Apps)": {
+      "fr": "5. Ouvrir des programmes (applications)",
+      "zh": "5. 如何打开程序（App）"
+    },
+    "5. Safety & Privacy Center": {
+      "fr": "5. Sécurité & vie privée",
+      "zh": "5. 安全与隐私中心"
+    },
+    "5. Health & Wellness": {
+      "fr": "5. Santé et bien-être",
+      "zh": "5. 健康与身心"
+    },
+    "6. How to Find Your Files (Photos, Documents)": {
+      "fr": "6. Retrouver vos fichiers (photos, documents)",
+      "zh": "6. 如何找到您的文件（照片、文档）"
+    },
+    "6. When You Feel Frustrated…": {
+      "fr": "6. Quand vous êtes frustré(e)…",
+      "zh": "6. 当您感到沮丧时…"
+    },
+    "6. Getting help": {
+      "fr": "6. Obtenir de l'aide",
+      "zh": "6. 获取帮助"
+    },
+    "7. Opening Your Web Browser": {
+      "fr": "7. Ouvrir votre navigateur web",
+      "zh": "7. 打开浏览器"
+    },
+    "7. Words of Encouragement": {
+      "fr": "7. Mots d'encouragement",
+      "zh": "7. 鼓励的话"
+    },
+    "8. Browsing the Web: Going to a Website": {
+      "fr": "8. Aller sur un site web",
+      "zh": "8. 上网：访问网站"
+    },
+    "9. Using Bookmarks (Saving Your Favorite Websites)": {
+      "fr": "9. Utiliser les favoris (enregistrer vos sites)",
+      "zh": "9. 书签（收藏常用网站）"
+    },
+    "10. Staying Safe on the Internet": {
+      "fr": "10. Rester en sécurité sur Internet",
+      "zh": "10. 网络安全"
+    },
+    "11. How to Download & Install Apps Safely": {
+      "fr": "11. Télécharger & installer des apps en sécurité",
+      "zh": "11. 安全下载与安装应用"
+    },
+    "12. Typing and Saving a Document": {
+      "fr": "12. Saisir et enregistrer un document",
+      "zh": "12. 输入与保存文档"
+    },
+    "13. Connecting a Printer or Other Device": {
+      "fr": "13. Connecter une imprimante ou autre périphérique",
+      "zh": "13. 连接打印机或其他设备"
+    },
+    "14. \"My computer is slow/frozen.\"": {
+      "fr": "14. « Mon ordinateur est lent/bloqué. »",
+      "zh": "14. \"电脑很慢/卡住\""
+    },
+    "15. \"I can't find my file!\"": {
+      "fr": "15. « Je ne trouve pas mon fichier ! »",
+      "zh": "15. \"找不到文件！\""
+    },
+    "16. \"The screen is too small to read!\"": {
+      "fr": "16. « L'écran est trop petit ! »",
+      "zh": "16. \"屏幕字太小看不清！\""
+    },
+    "Start": {
+      "fr": "Commencer",
+      "zh": "开始"
+    },
+    "Continue": {
+      "fr": "Continuer",
+      "zh": "继续"
+    },
+    "Finish": {
+      "fr": "Terminer",
+      "zh": "完成"
+    },
+    "Save": {
+      "fr": "Enregistrer",
+      "zh": "保存"
+    },
+    "Cancel": {
+      "fr": "Annuler",
+      "zh": "取消"
+    },
+    "Print": {
+      "fr": "Imprimer",
+      "zh": "打印"
+    },
+    "Listen": {
+      "fr": "Écouter",
+      "zh": "听"
+    },
+    "Practice": {
+      "fr": "Pratique",
+      "zh": "练习"
+    },
+    "Help": {
+      "fr": "Aide",
+      "zh": "帮助"
+    },
+    "Emergency": {
+      "fr": "Urgence",
+      "zh": "紧急"
+    },
+    "Plan": {
+      "fr": "Planifier",
+      "zh": "规划"
+    },
+    "Save Trip": {
+      "fr": "Enregistrer ce trajet",
+      "zh": "保存路线"
+    },
+    "Saved Trips": {
+      "fr": "Mes trajets enregistrés",
+      "zh": "我的已保存路线"
+    },
+    "ChatGPT": {
+      "fr": "ChatGPT",
+      "zh": "ChatGPT"
+    },
+    "Google Gemini": {
+      "fr": "Google Gemini",
+      "zh": "Google Gemini"
+    },
+    "Microsoft Copilot": {
+      "fr": "Microsoft Copilot",
+      "zh": "Microsoft Copilot"
+    },
+    "Perplexity": {
+      "fr": "Perplexity",
+      "zh": "Perplexity"
+    },
+    "Claude": {
+      "fr": "Claude",
+      "zh": "Claude"
+    },
+    "AI is like a helpful digital assistant on your phone or computer.": {
+      "fr": "L'IA est comme un assistant numérique utile sur votre téléphone ou ordinateur.",
+      "zh": "AI像手机或电脑里的贴心助理。"
+    },
+    "AI can answer questions anytime, help with writing and ideas, translate languages, and remember information inside your chat.": {
+      "fr": "Elle peut répondre, aider à écrire, traduire, et retenir dans la discussion.",
+      "zh": "能回答问题、帮写作、翻译，并在聊天中记住信息。"
+    },
+    "AI can make mistakes. AI doesn't know you personally. Don't believe everything AI says — check important facts.": {
+      "fr": "L'IA peut se tromper. L'IA ne vous connaît pas personnellement. Ne croyez pas tout : vérifiez les infos importantes.",
+      "zh": "AI可能会出错。AI并不了解您本人。不要全信——核对重要信息。"
+    },
+    "Choose an AI assistant": {
+      "fr": "Choisir un assistant IA",
+      "zh": "选择一个AI工具"
+    },
+    "Try these AI prompts": {
+      "fr": "Essayez ces invites",
+      "zh": "试试这些提示语"
+    },
+    "Voice Practice: Try voice commands": {
+      "fr": "Pratique vocale : essayez des commandes",
+      "zh": "语音练习：试着说出命令"
+    },
+    "Why Online Banking? (The Benefits)": {
+      "fr": "Pourquoi la banque en ligne ? (Avantages)",
+      "zh": "为什么用网上银行？（优势）"
+    },
+    "The Most Important Part — Security": {
+      "fr": "Le plus important — la sécurité",
+      "zh": "最重要的部分——安全"
+    },
+    "Staying Safe Online (Good Habits)": {
+      "fr": "Rester en sécurité (bonnes habitudes)",
+      "zh": "保持安全（好习惯）"
+    },
+    "What To Do If Something Goes Wrong": {
+      "fr": "Que faire en cas de problème",
+      "zh": "如果出现问题怎么办"
+    },
+    "Practice & Checklists": {
+      "fr": "Pratique & listes",
+      "zh": "练习与清单"
+    },
+    "Getting Help": {
+      "fr": "Obtenir de l'aide",
+      "zh": "获取帮助"
+    },
+    "CRITICAL REMINDER": {
+      "fr": "RAPPEL CRITIQUE",
+      "zh": "重要提醒"
+    },
+    "GOLDEN RULE: never click a link in an email or text to log into your bank.": {
+      "fr": "RÈGLE D'OR : ne cliquez jamais un lien d'email/SMS pour vous connecter.",
+      "zh": "黄金法则：绝不点击邮件或短信里的链接登录银行。"
+    },
+    "Activate online banking only through your bank's official phone number or in-person branch.": {
+      "fr": "Activez uniquement via le numéro officiel de votre banque ou en succursale.",
+      "zh": "只通过银行的官方电话或网点开通网上银行。"
+    },
+    "My online banking password is strong and written down safely at home.": {
+      "fr": "Mon mot de passe bancaire est fort et noté en sécurité à la maison.",
+      "zh": "我的网银密码强度高，并安全地写在家里的本子上。"
+    },
+    "I know how to check my balance.": {
+      "fr": "Je sais comment consulter mon solde.",
+      "zh": "我知道如何查看账户余额。"
+    },
+    "I have saved my bank's real customer service number in my phone.": {
+      "fr": "J'ai enregistré dans mon téléphone le vrai numéro du service à la clientèle de ma banque.",
+      "zh": "我手机里存了银行真正的客服电话。"
+    },
+    "I know that I should NOT click on bank email links.": {
+      "fr": "Je sais qu'il ne faut PAS cliquer sur des liens d'email pour la banque.",
+      "zh": "我知道不该点击银行邮件里的链接。"
+    },
+    "I have logged out of all sessions on shared devices.": {
+      "fr": "Je me suis déconnecté de toutes les sessions sur les appareils partagés.",
+      "zh": "我已在共享设备上退出所有登录会话。"
+    },
+    "Metro (Subway)": {
+      "fr": "Métro",
+      "zh": "地铁"
+    },
+    "Bus": {
+      "fr": "Bus",
+      "zh": "公交"
+    },
+    "Taxi & Ride Services": {
+      "fr": "Taxi & services",
+      "zh": "出租车与叫车服务"
+    },
+    "Walking & Community Shuttles": {
+      "fr": "Marche & navettes",
+      "zh": "步行与社区班车"
+    },
+    "Adapted Transit (ST)": {
+      "fr": "Transport adapté (ST)",
+      "zh": "交通适应服务（ST）"
+    },
+    "OPUS Card (Recommended)": {
+      "fr": "Carte OPUS (recommandé)",
+      "zh": "OPUS卡（推荐）"
+    },
+    "Single Tickets & Passes": {
+      "fr": "Billets & titres (exemples)",
+      "zh": "单次票与通票（示例）"
+    },
+    "Plan my trip": {
+      "fr": "Planifier mon trajet",
+      "zh": "规划我的行程"
+    },
+    "Save as \"Home station\"": {
+      "fr": "Définir comme « Station domicile »",
+      "zh": "设为\"家庭车站\""
+    },
+    "Save as favorite": {
+      "fr": "Enregistrer comme favori",
+      "zh": "收藏为最爱"
+    },
+    "Station Information": {
+      "fr": "Infos station",
+      "zh": "车站信息"
+    },
+    "Don't run for trains.": {
+      "fr": "Ne courez pas.",
+      "zh": "不要追赶地铁。"
+    },
+    "Hold handrails.": {
+      "fr": "Tenez les rampes.",
+      "zh": "抓好扶手。"
+    },
+    "Keep belongings close.": {
+      "fr": "Gardez vos effets près de vous.",
+      "zh": "随身物品保管好。"
+    },
+    "Ask STM staff if lost.": {
+      "fr": "Demandez à la STM si perdu.",
+      "zh": "迷路就问STM工作人员。"
+    },
+    "iPhone": {
+      "fr": "iPhone",
+      "zh": "iPhone"
+    },
+    "Android": {
+      "fr": "Android",
+      "zh": "安卓"
+    },
+    "Common Skills for All Phones": {
+      "fr": "Compétences communes à tous les téléphones",
+      "zh": "所有手机通用技能"
+    },
+    "Making Your First Call": {
+      "fr": "Passer votre premier appel",
+      "zh": "第一次打电话"
+    },
+    "Sending a Text Message": {
+      "fr": "Envoyer un message texte",
+      "zh": "发送短信"
+    },
+    "Taking a Photo": {
+      "fr": "Prendre une photo",
+      "zh": "拍照"
+    },
+    "Saving a Contact": {
+      "fr": "Enregistrer un contact",
+      "zh": "保存联系人"
+    },
+    "If You Get Lost in an App": {
+      "fr": "Si vous êtes perdu dans une app",
+      "zh": "在App里迷路了"
+    },
+    "Desktop & Files": {
+      "fr": "Bureau & fichiers",
+      "zh": "桌面与文件"
+    },
+    "Using the Internet (Web Browser)": {
+      "fr": "Utiliser Internet (Navigateur web)",
+      "zh": "使用互联网（浏览器）"
+    },
+    "Doing Things With Your Computer": {
+      "fr": "Faire des choses avec votre ordinateur",
+      "zh": "用电脑完成事情"
+    },
+    "Troubleshooting Common Problems": {
+      "fr": "Dépanner les problèmes courants",
+      "zh": "常见问题排查"
+    },
+    "Practice & Quiz": {
+      "fr": "Pratique & quiz",
+      "zh": "练习与测试"
+    },
+    "Daily Tip": {
+      "fr": "Conseil du jour",
+      "zh": "每日贴士"
+    },
+    "Words of Encouragement": {
+      "fr": "Mots d'encouragement",
+      "zh": "鼓励的话"
+    },
+    "When You Feel Frustrated…": {
+      "fr": "Quand vous êtes frustré(e)…",
+      "zh": "当您感到沮丧时…"
+    },
+    "Be Kind to Yourself": {
+      "fr": "Soyez bienveillant(e) avec vous-même",
+      "zh": "善待自己"
+    },
+    "Small steps every day make a big difference.": {
+      "fr": "De petits pas chaque jour font une grande différence.",
+      "zh": "每天小步前进，会有大不同。"
+    },
+    "You are not alone. Be proud of every new thing you try.": {
+      "fr": "Vous n'êtes pas seul(e). Soyez fier(ère) de chaque nouveauté que vous essayez.",
+      "zh": "您并不孤单。为每一次新的尝试感到自豪。"
+    },
+    "\"I learned to video call last year. Now I see my great-granddaughter in Vancouver every week. It was worth every bit of struggle.\" – Mrs. Li, 78": {
+      "fr": "« J'ai appris l'appel vidéo l'an dernier. Maintenant je vois mon arrière-petite-fille à Vancouver chaque semaine. Ça valait l'effort. » – Mme Li, 78 ans",
+      "zh": "「我去年学会了视频通话。现在每周都能看到温哥华的曾孙女。每一分努力都值得。」——李奶奶，78岁"
+    },
+    "\"I was afraid to touch the computer. Now I listen to my hometown radio station online every day. You can teach an old dog new tricks!\" – Mr. Singh, 76": {
+      "fr": "« J'avais peur de toucher l'ordinateur. Maintenant j'écoute ma radio du pays en ligne tous les jours. On peut apprendre à tout âge ! » – M. Singh, 76 ans",
+      "zh": "「我以前不敢碰电脑。现在每天都能在网上听家乡的电台。活到老学到老！」——辛格先生，76岁"
+    },
+    "\"My grandson showed me how to order groceries online. I have not carried heavy bags in the snow since. A game-changer!\" – Mr. Chen, 81": {
+      "fr": "« Mon petit-fils m'a montré comment commander l'épicerie en ligne. Fini les sacs lourds dans la neige. Un vrai changement ! » – M. Chen, 81 ans",
+      "zh": "「我孙子教我在网上买菜。从此再也不用雪天提重袋子。改变很大！」——陈先生，81岁"
+    },
+    "High Contrast": {
+      "fr": "Contraste élevé",
+      "zh": "高对比度"
+    },
+    "Larger Text": {
+      "fr": "Texte plus grand",
+      "zh": "大字体"
+    },
+    "Screen Reader": {
+      "fr": "Lecture d'écran",
+      "zh": "屏幕阅读器"
+    },
+    "Zoom": {
+      "fr": "Zoom",
+      "zh": "放大"
+    },
+    "Voice Commands": {
+      "fr": "Commandes vocales",
+      "zh": "语音命令"
+    },
+    "Copying": {
+      "fr": "Copier",
+      "zh": "抄写"
+    },
+    "Fill-in-the-blank": {
+      "fr": "Remplir les blancs",
+      "zh": "填空"
+    },
+    "Write your own": {
+      "fr": "Écrire vous-même",
+      "zh": "自己写"
+    },
+    "Listen & Repeat": {
+      "fr": "Écouter et répéter",
+      "zh": "听与复述"
+    },
+    "Shadowing Technique": {
+      "fr": "Technique d'écoute active",
+      "zh": "跟读技巧"
+    },
+    "Slow Conversation Practice": {
+      "fr": "Pratique de conversation lente",
+      "zh": "慢速对话练习"
+    },
+    "Script Builder": {
+      "fr": "Créateur de script",
+      "zh": "脚本生成器"
+    },
+    "Your First 10 Sentences": {
+      "fr": "Vos 10 premières phrases",
+      "zh": "您的头10个句子"
+    },
+    "Saved home station:": {
+      "fr": "Station domicile enregistrée :",
+      "zh": "已保存家庭车站："
+    },
+    "Saved favorite:": {
+      "fr": "Favori enregistré :",
+      "zh": "已收藏最爱："
+    },
+    "No saved trips yet.": {
+      "fr": "Aucun trajet enregistré.",
+      "zh": "暂无保存路线。"
+    },
+    "Sorry—no route found in the simplified map. Try a different station.": {
+      "fr": "Désolé — aucun trajet trouvé sur la carte simplifiée. Essayez une autre station.",
+      "zh": "抱歉——在简化地图上未找到路线。请尝试其他车站。"
+    },
+    "Trip saved!": {
+      "fr": "Trajet enregistré !",
+      "zh": "路线已保存！"
+    },
+    "Hello": {
+      "fr": "Bonjour",
+      "zh": "你好"
+    },
+    "Thank you": {
+      "fr": "Merci",
+      "zh": "谢谢"
+    },
+    "Please": {
+      "fr": "S'il vous plaît",
+      "zh": "请"
+    },
+    "Excuse me": {
+      "fr": "Excusez-moi",
+      "zh": "不好意思"
+    },
+    "How much is this?": {
+      "fr": "C'est combien ?",
+      "zh": "这个多少钱？"
+    },
+    "Where is...?": {
+      "fr": "Où est... ?",
+      "zh": "...在哪里？"
+    },
+    "I need help, please.": {
+      "fr": "J'ai besoin d'aide, s'il vous plaît.",
+      "zh": "我需要帮助，谢谢。"
+    },
+    "I don't understand.": {
+      "fr": "Je ne comprends pas.",
+      "zh": "我不懂。"
+    },
+    "Can you speak slower, please?": {
+      "fr": "Pouvez-vous parler plus lentement ?",
+      "zh": "请说慢一点好吗？"
+    },
+    "Can you repeat, please?": {
+      "fr": "Pouvez-vous répéter ?",
+      "zh": "请再说一遍好吗？"
+    },
+    "Police/Ambulance/Fire: 911": {
+      "fr": "Police/Ambulance/Pompiers : 911",
+      "zh": "警察/救护/消防：911"
+    },
+    "STM Security: 514-280-4637": {
+      "fr": "Sécurité STM : 514-280-4637",
+      "zh": "STM安保：514-280-4637"
+    },
+    "OPUS customer service: 514-786-4636": {
+      "fr": "Service OPUS : 514-786-4636",
+      "zh": "OPUS客服：514-786-4636"
+    },
+    "Lost & Found: 514-280-4638": {
+      "fr": "Objets trouvés : 514-280-4638",
+      "zh": "失物招领：514-280-4638"
+    },
+    "Open <strong>App Store</strong> (blue icon with “A”).": {
+      "fr": "Ouvrez l’<strong>App Store</strong> (icône bleue « A »).",
+      "zh": "打开 <strong>App Store</strong>（蓝色“A”图标）。"
+    },
+    "Tap <strong>Search</strong> (magnifying glass).": {
+      "fr": "Touchez <strong>Rechercher</strong> (loupe).",
+      "zh": "点 <strong>搜索</strong>（放大镜）。"
+    },
+    "Type <strong>ChatGPT</strong>.": {
+      "fr": "Tapez <strong>ChatGPT</strong>.",
+      "zh": "输入 <strong>ChatGPT</strong>。"
+    },
+    "Tap <strong>Get</strong> then <strong>Install</strong>.": {
+      "fr": "Touchez <strong>Obtenir</strong> puis <strong>Installer</strong>.",
+      "zh": "点 <strong>获取</strong>，然后 <strong>安装</strong>。"
+    },
+    "Open and tap <strong>Sign Up</strong>.": {
+      "fr": "Ouvrez et touchez <strong>S’inscrire</strong>.",
+      "zh": "打开并点 <strong>注册</strong>。"
+    },
+    "Open <strong>Play Store</strong> (colorful triangle).": {
+      "fr": "Ouvrez le <strong>Play Store</strong> (triangle coloré).",
+      "zh": "打开 <strong>Play 商店</strong>（彩色三角）。"
+    },
+    "Tap the search bar.": {
+      "fr": "Touchez la barre de recherche.",
+      "zh": "点搜索栏。"
+    },
+    "Tap <strong>Install</strong>.": {
+      "fr": "Touchez <strong>Installer</strong>.",
+      "zh": "点 <strong>安装</strong>。"
+    },
+    "Open and create an account.": {
+      "fr": "Ouvrez puis créez un compte.",
+      "zh": "打开并创建账户。"
+    },
+    "Open a web browser (Chrome, Safari, Edge).": {
+      "fr": "Ouvrez un navigateur (Chrome, Safari, Edge).",
+      "zh": "打开浏览器（Chrome、Safari、Edge）。"
+    },
+    "Go to: <code>chat.openai.com</code>": {
+      "fr": "Allez sur : <code>chat.openai.com</code>",
+      "zh": "访问：<code>chat.openai.com</code>"
+    },
+    "Click <strong>Sign up</strong>.": {
+      "fr": "Cliquez sur <strong>S’inscrire</strong>.",
+      "zh": "点击 <strong>注册</strong>（Sign up）。"
+    },
+    "Follow the instructions.": {
+      "fr": "Suivez les instructions.",
+      "zh": "按提示完成操作。"
+    },
+    "<strong>What it is:</strong> Google’s AI — good for everyday questions.": {
+      "fr": "<strong>Ce que c’est :</strong> l’IA de Google — pratique pour les questions de tous les jours.",
+      "zh": "<strong>是什么：</strong> Google 的 AI——适合日常问题。"
+    },
+    "App Store → Search <strong>Google Gemini</strong>": {
+      "fr": "App Store → Rechercher <strong>Google Gemini</strong>",
+      "zh": "App Store → 搜索 <strong>Google Gemini</strong>"
+    },
+    "Install → Open": {
+      "fr": "Installer → Ouvrir",
+      "zh": "安装 → 打开"
+    },
+    "Sign in with Google account (optional)": {
+      "fr": "Se connecter avec un compte Google (optionnel)",
+      "zh": "使用 Google 账号登录（可选）"
+    },
+    "Often pre-installed. Check for <strong>Gemini</strong> or <strong>Google Assistant</strong>.": {
+      "fr": "Souvent préinstallé. Cherchez <strong>Gemini</strong> ou <strong>Assistant Google</strong>.",
+      "zh": "常常已预装。查找 <strong>Gemini</strong> 或 <strong>Google 助理</strong>。"
+    },
+    "If not: Play Store → <strong>Google Gemini</strong> → Install": {
+      "fr": "Sinon : Play Store → <strong>Google Gemini</strong> → Installer",
+      "zh": "若没有：Play 商店 → <strong>Google Gemini</strong> → 安装"
+    },
+    "Use Chrome (recommended).": {
+      "fr": "Utiliser Chrome (recommandé).",
+      "zh": "建议使用 Chrome。"
+    },
+    "Go to: <code>gemini.google.com</code>": {
+      "fr": "Aller sur : <code>gemini.google.com</code>",
+      "zh": "访问：<code>gemini.google.com</code>"
+    },
+    "Sign in with Google account.": {
+      "fr": "Se connecter avec un compte Google.",
+      "zh": "用 Google 账号登录。"
+    },
+    "✓ Can read text aloud (if you allow)": {
+      "fr": "✓ Peut lire le texte à voix haute (si vous l’autorisez)",
+      "zh": "✓ 可朗读文本（需授权）"
+    },
+    "✓ Connects to Google services": {
+      "fr": "✓ Connecté aux services Google",
+      "zh": "✓ 可连接 Google 服务"
+    },
+    "✓ Voice commands: “Hey Google, …”": {
+      "fr": "✓ Commandes vocales : « Dis Google… »",
+      "zh": "✓ 语音命令：“Hey Google，…”"
+    },
+    "Practice: Try saying: <strong>“Hey Google, what’s the weather today?”</strong>": {
+      "fr": "Pratique : Essayez de dire : <strong>« Dis Google, quel temps fait‑il aujourd’hui ? »</strong>",
+      "zh": "练习：试着说：<strong>“Hey Google，今天天气怎么样？”</strong>"
+    },
+    "<strong>What it is:</strong> Good for computer help and documents.": {
+      "fr": "<strong>Ce que c’est :</strong> idéal pour l’aide informatique et les documents.",
+      "zh": "<strong>是什么：</strong> 适合电脑帮助和文档处理。"
+    },
+    "Often already installed. Look for the Copilot icon on the taskbar (blue circle).": {
+      "fr": "Souvent déjà installé. Cherchez l’icône Copilot dans la barre des tâches (cercle bleu).",
+      "zh": "常已内置。任务栏寻找 Copilot 图标（蓝色圆形）。"
+    },
+    "Or try: <strong>Windows key + C</strong> (if supported).": {
+      "fr": "Ou essayez : <strong>Touche Windows + C</strong> (si disponible).",
+      "zh": "或尝试：<strong>Windows 键 + C</strong>（如支持）。"
+    },
+    "App Store → <strong>Microsoft Copilot</strong> → Install": {
+      "fr": "App Store → <strong>Microsoft Copilot</strong> → Installer",
+      "zh": "App Store → <strong>Microsoft Copilot</strong> → 安装"
+    },
+    "Play Store → <strong>Microsoft Copilot</strong> → Install": {
+      "fr": "Play Store → <strong>Microsoft Copilot</strong> → Installer",
+      "zh": "Play 商店 → <strong>Microsoft Copilot</strong> → 安装"
+    },
+    "Go to: <code>copilot.microsoft.com</code>": {
+      "fr": "Aller sur : <code>copilot.microsoft.com</code>",
+      "zh": "访问：<code>copilot.microsoft.com</code>"
+    },
+    "✓ “Help me write an email”": {
+      "fr": "✓ « Aide‑moi à écrire un courriel »",
+      "zh": "✓ “帮我写一封电子邮件”"
+    },
+    "✓ “Explain this computer error”": {
+      "fr": "✓ « Explique cette erreur de l’ordinateur »",
+      "zh": "✓ “解释这个电脑错误”"
+    },
+    "✓ “Create a schedule for my week”": {
+      "fr": "✓ « Crée un horaire pour ma semaine »",
+      "zh": "✓ “为我这一周制定日程”"
+    },
+    "<strong>What it is:</strong> Great for long conversations and careful writing.": {
+      "fr": "<strong>Ce que c’est :</strong> excellent pour de longues conversations et une rédaction soignée.",
+      "zh": "<strong>是什么：</strong> 擅长长对话和慎重写作。"
+    },
+    "📱 App Store / Play Store: search <strong>Claude</strong>": {
+      "fr": "📱 App Store / Play Store : rechercher <strong>Claude</strong>",
+      "zh": "📱 App Store / Play 商店：搜索 <strong>Claude</strong>"
+    },
+    "💻 Website: <code>claude.ai</code>": {
+      "fr": "💻 Site web : <code>claude.ai</code>",
+      "zh": "💻 网站：<code>claude.ai</code>"
+    },
+    "<strong>What it is:</strong> A search-style AI that can show sources for answers.": {
+      "fr": "<strong>Ce que c’est :</strong> une IA de style recherche qui peut afficher ses sources.",
+      "zh": "<strong>是什么：</strong> 搜索型 AI，可显示答案来源。"
+    },
+    "📱 App Store / Play Store: <strong>Perplexity AI</strong>": {
+      "fr": "📱 App Store / Play Store : <strong>Perplexity AI</strong>",
+      "zh": "📱 App Store / Play 商店：<strong>Perplexity AI</strong>"
+    },
+    "💻 Website: <code>perplexity.ai</code>": {
+      "fr": "💻 Site web : <code>perplexity.ai</code>",
+      "zh": "💻 网站：<code>perplexity.ai</code>"
+    },
+    "Tip: You can use the web version if you don’t want to create an account.": {
+      "fr": "Astuce : vous pouvez utiliser la version web si vous ne voulez pas créer de compte.",
+      "zh": "提示：如果不想创建账户，可用网页版。"
+    },
+    "Go to any <strong>metro station ticket booth</strong>.": {
+      "fr": "Allez à un <strong>guichet de station de métro</strong>.",
+      "zh": "到任意<strong>地铁站售票窗口</strong>。"
+    },
+    "Say: <strong>“Je voudrais une carte OPUS, s'il vous plaît.”</strong>": {
+      "fr": "Dites : <strong>« Je voudrais une carte OPUS, s’il vous plaît. »</strong>",
+      "zh": "说：<strong>“我想要一张 OPUS 卡，谢谢。”</strong>"
+    },
+    "Show proof of age for senior discount (health card, driver’s license).": {
+      "fr": "Présentez une preuve d’âge pour le tarif aîné (carte d’assurance‑maladie, permis de conduire).",
+      "zh": "出示年龄证明以享受老年优惠（医保卡、驾照等）。"
+    },
+    "Pay: OPUS card fee (often ~$6), then add fares/passes.": {
+      "fr": "Payez : frais de carte OPUS (souvent ~6 $), puis rechargez des titres.",
+      "zh": "付款：OPUS 制卡费（通常约 6 加元），然后充值车票/通票。"
+    },
+    "<strong>Enter the station</strong><br/>Look for STM logo. Tap OPUS on the reader circle → wait for green light + beep.": {
+      "fr": "<strong>Entrez dans la station</strong><br/>Repérez le logo STM. Présentez votre OPUS sur le lecteur rond → attendez le voyant vert + bip.",
+      "zh": "<strong>进入车站</strong><br/>寻找 STM 标志。把 OPUS 卡贴在圆形读卡器上 → 等绿灯和“滴”声。"
+    },
+    "<strong>Find your train</strong><br/>Follow the line color + direction (final station name).": {
+      "fr": "<strong>Trouvez votre train</strong><br/>Suivez la couleur de ligne et la direction (nom du terminus).",
+      "zh": "<strong>找到列车</strong><br/>按线路颜色和方向（终点站名）指示。"
+    },
+    "<strong>Board safely</strong><br/>Stand behind yellow line. Let people exit first. Hold a pole/handrail.": {
+      "fr": "<strong>Montez en sécurité</strong><br/>Restez derrière la ligne jaune. Laissez descendre d’abord. Tenez une barre/rampe.",
+      "zh": "<strong>安全上车</strong><br/>站在黄线后；先让乘客下车；抓住扶杆。"
+    },
+    "<strong>Know when to get off</strong><br/>Watch display, listen announcements, count stops if helpful.": {
+      "fr": "<strong>Savoir quand descendre</strong><br/>Regardez l’afficheur, écoutez les annonces, comptez les arrêts si besoin.",
+      "zh": "<strong>何时下车</strong><br/>看车内显示屏、听广播；必要时数站。"
+    },
+    "<strong>Transfers & exits</strong><br/>Follow color-coded signs. Look for “Sortie” (Exit).": {
+      "fr": "<strong>Correspondances & sorties</strong><br/>Suivez les panneaux par couleur. Cherchez « Sortie ».",
+      "zh": "<strong>换乘与出站</strong><br/>跟随颜色指示牌；寻找“Sortie/出口”。"
+    },
+    "<strong>Find your bus stop:</strong> blue/white sign, check bus number and destination.": {
+      "fr": "<strong>Trouvez votre arrêt :</strong> panneau bleu/blanc ; vérifiez le numéro et la destination.",
+      "zh": "<strong>找到站牌：</strong>蓝/白标志，确认线路和方向。"
+    },
+    "<strong>Hail the bus:</strong> raise your hand as it approaches.": {
+      "fr": "<strong>Faites signe au bus :</strong> levez la main à l’approche.",
+      "zh": "<strong>招手上车：</strong>车辆靠近时举手示意。"
+    },
+    "<strong>Pay:</strong> tap OPUS or insert exact change. Ask for transfer: “Un transfert, s'il vous plaît.”": {
+      "fr": "<strong>Paiement :</strong> validez OPUS ou mettez la monnaie exacte. Demandez un transfert : « Un transfert, s’il vous plaît. »",
+      "zh": "<strong>付费：</strong>刷 OPUS 或投足额硬币。可说“请给换乘票”。"
+    },
+    "<strong>During ride:</strong> press stop button or pull yellow cord before your stop (Arrêt demandé).": {
+      "fr": "<strong>Dans le bus :</strong> appuyez sur le bouton d’arrêt ou tirez le cordon jaune (Arrêt demandé).",
+      "zh": "<strong>车上：</strong>到站前按“停靠”按钮或拉黄绳（已请求停车）。"
+    },
+    "<strong>Exit safely:</strong> use handrails, watch the step down.": {
+      "fr": "<strong>Descendez prudemment :</strong> tenez la rampe, attention à la marche.",
+      "zh": "<strong>安全下车：</strong>抓好扶手，小心台阶。"
+    },
+    "Open your bank’s <strong>official app</strong> or go to their <strong>official website</strong>.": {
+      "fr": "Ouvrez l’application <strong>officielle</strong> de votre banque ou allez sur son <strong>site officiel</strong>.",
+      "zh": "打开银行的<strong>官方App</strong>或访问其<strong>官方网站</strong>。"
+    },
+    "Enter your <strong>client card number</strong> (on your debit card).": {
+      "fr": "Entrez votre <strong>numéro de carte client</strong> (sur la carte de débit).",
+      "zh": "输入您的<strong>客户卡号</strong>（借记卡上的号码）。"
+    },
+    "Enter the password/PIN the bank gave you.": {
+      "fr": "Entrez le mot de passe/NIP fourni par la banque.",
+      "zh": "输入银行提供的密码/PIN。"
+    },
+    "Create a new <strong>strong online banking password</strong>.": {
+      "fr": "Créez un nouveau <strong>mot de passe de banque en ligne</strong> fort.",
+      "zh": "创建一个<strong>强壮的网银密码</strong>。"
+    },
+    "Optional: set up <strong>Face ID / Touch ID</strong> for easier logins.": {
+      "fr": "Optionnel : activez <strong>Face ID / Touch ID</strong> pour des connexions plus faciles.",
+      "zh": "可选：设置 <strong>Face ID / Touch ID</strong>，登录更方便。"
+    },
+    "Log in.": {
+      "fr": "Connectez‑vous.",
+      "zh": "登录。"
+    },
+    "Tap <strong>Accounts</strong> or <strong>Summary</strong>.": {
+      "fr": "Touchez <strong>Comptes</strong> ou <strong>Sommaire</strong>.",
+      "zh": "点 <strong>账户</strong> 或 <strong>总览</strong>。"
+    },
+    "Look for <strong>Available Balance</strong>.": {
+      "fr": "Cherchez le <strong>Solde disponible</strong>.",
+      "zh": "找到 <strong>可用余额</strong>。"
+    },
+    "Log in → find <strong>Pay Bills</strong> / <strong>Bill Payments</strong>.": {
+      "fr": "Connectez‑vous → trouvez <strong>Payer des factures</strong> / <strong>Paiements de factures</strong>.",
+      "zh": "登录 → 找到 <strong>支付账单</strong> / <strong>缴费</strong>。"
+    },
+    "Tap <strong>Add Payee</strong> / <strong>Add Bill</strong>.": {
+      "fr": "Touchez <strong>Ajouter un bénéficiaire</strong> / <strong>Ajouter une facture</strong>.",
+      "zh": "点 <strong>添加收款人</strong> / <strong>添加账单</strong>。"
+    },
+    "Search for the company (example: Hydro‑Québec).": {
+      "fr": "Recherchez l’entreprise (ex. : Hydro‑Québec).",
+      "zh": "搜索公司（例如：Hydro‑Québec）。"
+    },
+    "Enter your account number from the paper bill.": {
+      "fr": "Saisissez votre numéro de compte depuis la facture papier.",
+      "zh": "输入纸质账单上的账户号。"
+    },
+    "Enter amount + date.": {
+      "fr": "Entrez le montant et la date.",
+      "zh": "输入金额和日期。"
+    },
+    "Submit → save confirmation number.": {
+      "fr": "Soumettez → notez le numéro de confirmation.",
+      "zh": "提交 → 保存确认号码。"
+    },
+    "Find <strong>Send Money</strong> / <strong>Interac e‑Transfer</strong>.": {
+      "fr": "Trouvez <strong>Envoyer de l’argent</strong> / <strong>Virement Interac</strong>.",
+      "zh": "找到 <strong>汇款</strong> / <strong>Interac e‑Transfer</strong>。"
+    },
+    "Enter recipient email or phone number.": {
+      "fr": "Entrez le courriel ou le numéro de téléphone du destinataire.",
+      "zh": "输入收款人的邮箱或手机号。"
+    },
+    "Enter amount.": {
+      "fr": "Entrez le montant.",
+      "zh": "输入金额。"
+    },
+    "Create a security question + answer the person knows.": {
+      "fr": "Créez une question de sécurité et une réponse connue du destinataire.",
+      "zh": "设置一个安全问题并给出只有对方知道的答案。"
+    },
+    "Review and send.": {
+      "fr": "Vérifiez et envoyez.",
+      "zh": "检查后发送。"
+    },
+    "Open your bank app → <strong>Mobile Cheque Deposit</strong>.": {
+      "fr": "Ouvrez l’app bancaire → <strong>Dépôt de chèque mobile</strong>.",
+      "zh": "打开银行App → <strong>移动支票存款</strong>。"
+    },
+    "Sign the back (write “For mobile deposit only”).": {
+      "fr": "Endossez au verso (écrivez « Pour dépôt mobile seulement »).",
+      "zh": "在背面签名（写“仅限移动存款”）。"
+    },
+    "Photo the front on a dark flat surface.": {
+      "fr": "Photographiez le recto sur une surface sombre et plane.",
+      "zh": "把支票正面放在深色平面上拍照。"
+    },
+    "Photo the back.": {
+      "fr": "Photographiez le verso.",
+      "zh": "拍摄背面。"
+    },
+    "Enter amount → Deposit.": {
+      "fr": "Entrez le montant → Déposer.",
+      "zh": "输入金额 → 存入。"
+    },
+    "Keep the paper cheque 2 weeks, then destroy.": {
+      "fr": "Conservez le chèque 2 semaines, puis détruisez‑le.",
+      "zh": "纸质支票保留 2 周后销毁。"
+    },
+    "<strong>Keep software updated</strong> (updates fix security holes).": {
+      "fr": "<strong>Mettez à jour les logiciels</strong> (les mises à jour corrigent des failles).",
+      "zh": "<strong>保持软件更新</strong>（修补安全漏洞）。"
+    },
+    "<strong>Use secure Wi‑Fi</strong>: home Wi‑Fi or mobile data only. Never public Wi‑Fi.": {
+      "fr": "<strong>Utilisez un Wi‑Fi sécurisé</strong> : Wi‑Fi à la maison ou données mobiles. Jamais le Wi‑Fi public.",
+      "zh": "<strong>使用安全 Wi‑Fi</strong>：家用 Wi‑Fi 或移动数据；不要用公共 Wi‑Fi。"
+    },
+    "<strong>Log out</strong> when finished (don’t just close the window).": {
+      "fr": "<strong>Déconnectez‑vous</strong> en fin de session (ne fermez pas seulement la fenêtre).",
+      "zh": "<strong>完成后登出</strong>（不要只关窗口）。"
+    },
+    "<strong>Check statements</strong> monthly.": {
+      "fr": "<strong>Vérifiez vos relevés</strong> chaque mois.",
+      "zh": "<strong>每月检查对账单</strong>。"
+    },
+    "<strong>Turn on 2‑Factor Authentication</strong> if offered.": {
+      "fr": "<strong>Activez l’authentification à deux facteurs</strong> si disponible.",
+      "zh": "如有提供，<strong>启用两步验证</strong>。"
+    },
+    "<strong>Forgot password:</strong> use “Forgot Password” on the official login page.": {
+      "fr": "<strong>Mot de passe oublié :</strong> utilisez « Mot de passe oublié » sur la page officielle de connexion.",
+      "zh": "<strong>忘记密码：</strong> 在官方网站登录页使用“忘记密码”。"
+    },
+    "<strong>Unknown transaction:</strong> call your bank’s fraud department immediately (number on debit card).": {
+      "fr": "<strong>Transaction inconnue :</strong> appelez immédiatement le service antifraude de votre banque (numéro sur la carte).",
+      "zh": "<strong>不明交易：</strong> 立刻致电银行反欺诈部门（卡背号码）。"
+    },
+    "<strong>Clicked a bad link:</strong> change password immediately, then call your bank.": {
+      "fr": "<strong>Lien frauduleux cliqué :</strong> changez le mot de passe tout de suite, puis appelez votre banque.",
+      "zh": "<strong>点了可疑链接：</strong> 立即改密码，然后致电银行。"
+    },
+    "<strong>Locked out:</strong> call customer service. They will verify your identity.": {
+      "fr": "<strong>Compte bloqué :</strong> appelez le service clientèle. Votre identité sera vérifiée.",
+      "zh": "<strong>被锁定：</strong> 致电客服；他们会核验身份。"
+    },
+    "<strong>Power Button</strong> (On/Off): Right side, to turn phone on/off or lock.": {
+      "fr": "<strong>Bouton d’alimentation</strong> (Marche/Arrêt) : côté droit pour allumer/éteindre ou verrouiller.",
+      "zh": "<strong>电源键</strong>（开关机）：右侧，用于开/关机或锁屏。"
+    },
+    "<strong>Volume Buttons</strong> (🔊): Left side, to make sound louder/quieter.": {
+      "fr": "<strong>Boutons de volume</strong> (🔊) : à gauche pour augmenter/baisser le son.",
+      "zh": "<strong>音量键</strong> (🔊)：左侧，调大/调小声音。"
+    },
+    "<strong>Side Button</strong> (newer) or <strong>Home Button</strong> (older): Wake your phone or go home.": {
+      "fr": "<strong>Bouton latéral</strong> (modèles récents) ou <strong>bouton Accueil</strong> (anciens) : réveiller/retour accueil.",
+      "zh": "<strong>侧边键</strong>（新机型）或 <strong>主屏键</strong>（旧机型）：唤醒或回到主屏。"
+    },
+    "<strong>Screen</strong>: Touch here to do everything!": {
+      "fr": "<strong>Écran</strong> : touchez ici pour tout faire !",
+      "zh": "<strong>屏幕</strong>：所有操作都在这里完成！"
+    },
+    "Tap the green <strong>Phone</strong> icon 📞": {
+      "fr": "Touchez l’icône verte <strong>Téléphone</strong> 📞",
+      "zh": "点绿色的 <strong>电话</strong> 图标 📞"
+    },
+    "Tap <strong>Keypad</strong> (looks like a calculator)": {
+      "fr": "Touchez <strong>Clavier</strong> (ressemble à une calculatrice)",
+      "zh": "点 <strong>键盘</strong>（像计算器）"
+    },
+    "Type the number using the big buttons": {
+      "fr": "Composez le numéro avec les gros boutons",
+      "zh": "用大按钮拨号码"
+    },
+    "Tap the green <strong>Call</strong> button": {
+      "fr": "Touchez le bouton vert <strong>Appeler</strong>",
+      "zh": "点绿色的 <strong>拨号</strong> 按钮"
+    },
+    "Tap the green <strong>Messages</strong> icon 💬": {
+      "fr": "Touchez l’icône verte <strong>Messages</strong> 💬",
+      "zh": "点绿色的 <strong>信息</strong> 图标 💬"
+    },
+    "Tap the <strong>pencil-and-paper</strong> ✏️ icon": {
+      "fr": "Touchez l’icône <strong>crayon‑papier</strong> ✏️",
+      "zh": "点 <strong>铅笔纸</strong> ✏️ 图标"
+    },
+    "Type the <strong>name</strong> OR <strong>number</strong>": {
+      "fr": "Tapez le <strong>nom</strong> OU le <strong>numéro</strong>",
+      "zh": "输入<strong>姓名</strong>或<strong>号码</strong>"
+    },
+    "Type your message in the big box": {
+      "fr": "Écrivez votre message dans la grande zone",
+      "zh": "在大输入框输入消息"
+    },
+    "Tap the blue <strong>Send</strong> arrow ➤": {
+      "fr": "Touchez la flèche bleue <strong>Envoyer</strong> ➤",
+      "zh": "点蓝色的 <strong>发送</strong> 箭头 ➤"
+    },
+    "Tap the <strong>Camera</strong> icon 📸": {
+      "fr": "Touchez l’icône <strong>Appareil photo</strong> 📸",
+      "zh": "点 <strong>相机</strong> 图标 📸"
+    },
+    "Point at what you want to photograph": {
+      "fr": "Cadrez ce que vous voulez photographier",
+      "zh": "对准想拍的东西"
+    },
+    "Tap the big white circle ⚪ at bottom": {
+      "fr": "Touchez le grand cercle blanc ⚪ en bas",
+      "zh": "点底部大的白色圆圈 ⚪"
+    },
+    "See your photo in the <strong>Photos</strong> app": {
+      "fr": "Retrouvez la photo dans l’app <strong>Photos</strong>",
+      "zh": "在 <strong>照片</strong> app 里查看"
+    },
+    "<strong>Siri (Voice Help):</strong> Hold the Side/Home button and say “Call my daughter” or “Set timer for 10 minutes”.": {
+      "fr": "<strong>Siri (aide vocale) :</strong> Maintenez le bouton latéral/Accueil et dites « Appelle ma fille » ou « Minuteur 10 minutes ».",
+      "zh": "<strong>Siri（语音帮助）：</strong> 按住侧边/主屏键，说“给我女儿打电话”或“设置10分钟计时”。"
+    },
+    "<strong>Make Text Bigger:</strong> Settings → Display & Brightness → Text Size → Slide to right.": {
+      "fr": "<strong>Agrandir le texte :</strong> Réglages → Luminosité et affichage → Taille du texte → Glisser à droite.",
+      "zh": "<strong>放大文字：</strong> 设置 → 显示与亮度 → 文字大小 → 向右滑动。"
+    },
+    "<strong>Emergency SOS:</strong> Press Power button 5 times quickly → Calls emergency services.": {
+      "fr": "<strong>Urgence SOS :</strong> Appuyez 5 fois rapidement sur Marche → Appelle les secours.",
+      "zh": "<strong>紧急SOS：</strong> 快速按电源键5次 → 拨打急救电话。"
+    },
+    "Open <strong>Settings</strong> (gear ⚙️)": {
+      "fr": "Ouvrez les <strong>Réglages</strong> (engrenage ⚙️)",
+      "zh": "打开 <strong>设置</strong>（齿轮 ⚙️）"
+    },
+    "Tap <strong>Wi‑Fi</strong>": {
+      "fr": "Touchez <strong>Wi‑Fi</strong>",
+      "zh": "点 <strong>Wi‑Fi</strong>"
+    },
+    "Tap your network name": {
+      "fr": "Touchez le nom de votre réseau",
+      "zh": "点你的网络名称"
+    },
+    "Enter password": {
+      "fr": "Entrez le mot de passe",
+      "zh": "输入密码"
+    },
+    "Tap <strong>Connect</strong>": {
+      "fr": "Touchez <strong>Se connecter</strong>",
+      "zh": "点 <strong>连接</strong>"
+    },
+    "Open <strong>Phone</strong> app": {
+      "fr": "Ouvrez l’app <strong>Téléphone</strong>",
+      "zh": "打开 <strong>电话</strong> app"
+    },
+    "Tap <strong>Contacts</strong>": {
+      "fr": "Touchez <strong>Contacts</strong>",
+      "zh": "点 <strong>联系人</strong>"
+    },
+    "Tap <strong>+</strong>": {
+      "fr": "Touchez <strong>+</strong>",
+      "zh": "点 <strong>+</strong>"
+    },
+    "Type name and number": {
+      "fr": "Saisissez le nom et le numéro",
+      "zh": "输入姓名和号码"
+    },
+    "Tap <strong>Save</strong>": {
+      "fr": "Touchez <strong>Enregistrer</strong>",
+      "zh": "点 <strong>保存</strong>"
+    },
+    "Press the <strong>power button</strong>.": {
+      "fr": "Appuyez sur le <strong>bouton d’alimentation</strong>.",
+      "zh": "按下<strong>电源键</strong>。"
+    },
+    "To shut down: Click <strong>Start</strong> → <strong>Power</strong> → <strong>Shut down</strong>.": {
+      "fr": "Pour éteindre : cliquez sur <strong>Démarrer</strong> → <strong>Alimentation</strong> → <strong>Arrêter</strong>.",
+      "zh": "关机：点 <strong>开始</strong> → <strong>电源</strong> → <strong>关机</strong>。"
+    },
+    "Press the <strong>power button</strong> (often top-right on keyboard or back of screen).": {
+      "fr": "Appuyez sur le <strong>bouton d’alimentation</strong> (souvent en haut à droite du clavier ou derrière l’écran).",
+      "zh": "按下<strong>电源键</strong>（常在键盘右上或屏幕后）。"
+    },
+    "To shut down: Click the <strong>Apple</strong> menu (top-left) → <strong>Shut Down</strong>.": {
+      "fr": "Pour éteindre : menu <strong>Apple</strong> (en haut à gauche) → <strong>Éteindre</strong>.",
+      "zh": "关机：点 <strong>苹果</strong> 菜单（左上角）→ <strong>关机</strong>。"
+    },
+    "To shut down: Click the <strong>Menu</strong> → <strong>Power Off</strong> / <strong>Shut Down</strong>.": {
+      "fr": "Pour éteindre : cliquez sur le <strong>Menu</strong> → <strong>Éteindre</strong>.",
+      "zh": "关机：点 <strong>菜单</strong> → <strong>关机</strong>。"
+    },
+    "<strong>Click</strong>: left button once (select)": {
+      "fr": "<strong>Clic</strong> : bouton gauche une fois (sélection)",
+      "zh": "<strong>单击</strong>：左键一次（选择）"
+    },
+    "<strong>Double-click</strong>: left button twice quickly (open)": {
+      "fr": "<strong>Double‑clic</strong> : bouton gauche deux fois rapidement (ouvrir)",
+      "zh": "<strong>双击</strong>：左键快速两次（打开）"
+    },
+    "<strong>Right-click</strong>: right button (options menu)": {
+      "fr": "<strong>Clic droit</strong> : bouton droit (menu d’options)",
+      "zh": "<strong>右键</strong>：右键（选项菜单）"
+    },
+    "<strong>Scroll</strong>: roll the wheel (move up/down)": {
+      "fr": "<strong>Défilement</strong> : faites rouler la molette (haut/bas)",
+      "zh": "<strong>滚动</strong>：滚动滚轮（上下移动）"
+    },
+    "Click the <strong>Start</strong> button.": {
+      "fr": "Cliquez sur le bouton <strong>Démarrer</strong>.",
+      "zh": "点击 <strong>开始</strong> 按钮。"
+    },
+    "Click the program name (example: Chrome).": {
+      "fr": "Cliquez sur le nom du programme (ex. : Chrome).",
+      "zh": "点击程序名称（比如：Chrome）。"
+    },
+    "Click an app on the <strong>Dock</strong> (bottom bar), OR": {
+      "fr": "Cliquez une app dans le <strong>Dock</strong> (barre du bas), OU",
+      "zh": "点击底部栏的 <strong>Dock</strong> 中的应用，或"
+    },
+    "Open <strong>Launchpad</strong> (rocket) to see all apps.": {
+      "fr": "Ouvrez le <strong>Launchpad</strong> (fusée) pour voir toutes les apps.",
+      "zh": "打开 <strong>Launchpad</strong>（火箭）查看所有应用。"
+    },
+    "Click the <strong>Menu</strong> (often bottom-left).": {
+      "fr": "Cliquez sur le <strong>Menu</strong> (souvent en bas à gauche).",
+      "zh": "点击 <strong>菜单</strong>（通常在左下角）。"
+    },
+    "Find the program in the list or search.": {
+      "fr": "Trouvez le programme dans la liste ou cherchez-le.",
+      "zh": "在列表中找到程序或搜索。"
+    },
+    "Click the <strong>address bar</strong> (long box at the top).": {
+      "fr": "Cliquez la <strong>barre d’adresse</strong> (long rectangle en haut).",
+      "zh": "点击<strong>地址栏</strong>（顶部的长框）。"
+    },
+    "Type a web address (example: <code>www.cbc.ca</code>).": {
+      "fr": "Tapez une adresse web (ex. : <code>www.cbc.ca</code>).",
+      "zh": "输入网址（例如：<code>www.cbc.ca</code>）。"
+    },
+    "Press <strong>Enter</strong>.": {
+      "fr": "Appuyez sur <strong>Entrée</strong>.",
+      "zh": "按下 <strong>Enter</strong>。"
+    },
+    "<strong>Safety Tip:</strong> Look for the lock icon 🔒 next to the address for safer sites.": {
+      "fr": "<strong>Astuce sécurité :</strong> repérez le cadenas 🔒 près de l’adresse pour des sites plus sûrs.",
+      "zh": "<strong>安全提示：</strong> 地址旁若有🔒锁标志，通常更安全。"
+    },
+    "Go to the website you like.": {
+      "fr": "Allez sur le site que vous aimez.",
+      "zh": "打开你喜欢的网站。"
+    },
+    "Click the <strong>star</strong> ★ in the address bar.": {
+      "fr": "Cliquez l’<strong>étoile</strong> ★ dans la barre d’adresse.",
+      "zh": "点击地址栏中的<strong>星标</strong> ★。"
+    },
+    "Click <strong>Save</strong> or <strong>Done</strong>.": {
+      "fr": "Cliquez <strong>Enregistrer</strong> ou <strong>Terminé</strong>.",
+      "zh": "点击 <strong>保存</strong> 或 <strong>完成</strong>。"
+    },
+    "Click <strong>File</strong> (top-left).": {
+      "fr": "Cliquez sur <strong>Fichier</strong> (en haut à gauche).",
+      "zh": "点击 <strong>文件</strong>（左上角）。"
+    },
+    "Click <strong>Save As…</strong>": {
+      "fr": "Cliquez sur <strong>Enregistrer sous…</strong>",
+      "zh": "点击 <strong>另存为…</strong>"
+    },
+    "Choose <strong>Documents</strong>.": {
+      "fr": "Choisissez <strong>Documents</strong>.",
+      "zh": "选择 <strong>文档</strong> 文件夹。"
+    },
+    "Name your file (example: “My List”).": {
+      "fr": "Nommez le fichier (ex. : « Ma liste »).",
+      "zh": "给文件命名（如：“我的清单”）。"
+    },
+    "Click <strong>Save</strong>.": {
+      "fr": "Cliquez sur <strong>Enregistrer</strong>.",
+      "zh": "点击 <strong>保存</strong>。"
+    },
+    "Plug the cable in.": {
+      "fr": "Branchez le câble.",
+      "zh": "插好数据线。"
+    },
+    "Wait. The computer may say “Setting up device”.": {
+      "fr": "Attendez. L’ordinateur peut afficher « Configuration du périphérique ».",
+      "zh": "等待。电脑可能会显示“正在设置设备”。"
+    },
+    "If it doesn’t work: check it’s on, restart the computer, ask for help.": {
+      "fr": "Si ça ne marche pas : vérifiez l’alimentation, redémarrez, demandez de l’aide.",
+      "zh": "若无效：确认已通电，重启电脑，或寻求帮助。"
+    },
+    "<strong>First:</strong> Close some programs (click X in the corner).": {
+      "fr": "<strong>D’abord :</strong> fermez quelques programmes (cliquez sur X).",
+      "zh": "<strong>第一步：</strong> 关闭一些程序（点右上角 X）。"
+    },
+    "<strong>Second:</strong> Restart (Shut down → wait 10 seconds → turn on).": {
+      "fr": "<strong>Ensuite :</strong> redémarrez (Éteindre → attendez 10 s → rallumer).",
+      "zh": "<strong>第二步：</strong> 重启（关机 → 等 10 秒 → 开机）。"
+    },
+    "Hold <strong>Ctrl</strong> (or <strong>Cmd</strong> on Mac) and press <strong>+</strong>.": {
+      "fr": "Maintenez <strong>Ctrl</strong> (ou <strong>Cmd</strong> sur Mac) et appuyez sur <strong>+</strong>.",
+      "zh": "按住 <strong>Ctrl</strong>（Mac 上为 <strong>Cmd</strong>）再按 <strong>+</strong>。"
+    },
+    "<strong>Windows:</strong> Right‑click desktop → Display Settings → Scale": {
+      "fr": "<strong>Windows :</strong> Clic droit sur le bureau → Paramètres d’affichage → Mise à l’échelle",
+      "zh": "<strong>Windows：</strong> 桌面右键 → 显示设置 → 缩放"
+    },
+    "<strong>Mac:</strong> Apple menu → System Settings/Preferences → Displays → Scaled": {
+      "fr": "<strong>Mac :</strong> Menu Apple → Réglages/Préférences système → Moniteurs → Adapté",
+      "zh": "<strong>Mac：</strong> 苹果菜单 → 系统设置/偏好设置 → 显示器 → 缩放"
+    },
+    "<strong>Linux:</strong> Settings → Displays → Scale (varies)": {
+      "fr": "<strong>Linux :</strong> Paramètres → Écrans → Mise à l’échelle (variable)",
+      "zh": "<strong>Linux：</strong> 设置 → 显示 → 缩放（因发行版而异）"
+    }
+  }
+}

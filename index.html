@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--
+      Aide aux Techno
+      Simple, beginner-friendly homepage scaffold.
+      Edit text in app.js (the TRANSLATIONS object) to change labels.
+    -->
+    <title>Aide aux Techno — Tech Help for Seniors</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2c7873">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('sw.js').catch(console.error);
+        });
+      }
+    </script>
+  </head>
+
+  <body data-i18n-scope>
+    <header class="topbar" role="banner">
+      <div class="brand">
+        <div class="brand__appname" id="appName">Aide aux Techno</div>
+        <div class="brand__subtitle" id="appSubtitle">Montreal • Senior-friendly tech learning</div>
+      </div>
+
+      <!-- Language selector: visible, large, and easy to tap -->
+      <nav class="lang" aria-label="Language selector">
+        <button class="lang__btn" type="button" data-lang="fr" aria-pressed="true">FR</button>
+        <button class="lang__btn" type="button" data-lang="zh" aria-pressed="false">中文</button>
+        <button class="lang__btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+      </nav>
+    </header>
+
+    <main class="container" role="main">
+      <!-- Big, clear homepage title (required) -->
+      <h1 class="title" id="homeTitle">Tech Help for Seniors</h1>
+
+      <!-- Search + Voice help -->
+      <section class="search" aria-label="Search help topics">
+        <div class="voicebar">
+<button class="pill primary voiceMic" id="btnAskHelp" type="button" aria-haspopup="dialog" aria-controls="voiceModal">🎤 Ask for help</button>
+        </div>
+        <label class="search__label" for="searchInput" id="searchLabel">What do you need help with?</label>
+        <div class="search__row">
+          <input
+            id="searchInput"
+            class="search__input"
+            type="search"
+            inputmode="search"
+            autocomplete="off"
+            placeholder="e.g., WhatsApp, Wi‑Fi, photos"
+          />
+          <button class="search__btn" id="searchBtn" type="button">Search</button>
+        </div>
+        <p class="search__hint" id="searchHint">
+          Tip: Try simple words like “Wi‑Fi”, “camera”, or “bank”.
+        </p>
+      </section>
+
+      <!-- Your Learning Progress (shows completion for each skill) -->
+      <section class="homeProgress" aria-label="Your Learning Progress">
+        <h2 class="h2" id="progressTitle">Your Learning Progress</h2>
+        <div class="homeProgress__grid" id="homeProgress"></div>
+
+        <h2 class="h2" id="badgesTitle" style="margin-top:1rem;">Achievement Badges</h2>
+        <div class="badges" id="homeBadges"></div>
+      </section>
+
+      <!-- Main skills menu: 8 large buttons in a simple grid -->
+      <section class="menu" aria-label="Main skills">
+        <div class="menu__grid">
+          <!-- Each button has: icon (SVG), big label, and is easy to tap -->
+
+          <button class="card" type="button" data-skill="phone">
+            <span class="card__icon" aria-hidden="true" style="font-size:48px;line-height:1;">📱</span>
+            <span class="card__label" id="skill_phone">Using Your Phone</span>
+          </button>
+
+          <button class="card" type="button" data-skill="computer">
+            <span class="card__icon" aria-hidden="true" style="font-size:48px;line-height:1;">💻</span>
+            <span class="card__label" id="skill_computer">Using Your Computer</span>
+          </button>
+
+          <button class="card" type="button" data-skill="apps">
+            <span class="card__icon" aria-hidden="true" style="font-size:48px;line-height:1;">➜</span>
+            <span class="card__label" id="skill_apps">Installing Apps</span>
+          </button>
+
+          <button class="card" type="button" data-skill="ai">
+            <span class="card__icon" aria-hidden="true" style="font-size:48px;line-height:1;">🤖</span>
+            <span class="card__label" id="skill_ai">Using AI Tools</span>
+          </button>
+
+          <button class="card" type="button" data-skill="bank">
+            <span class="card__icon" aria-hidden="true" style="font-size:48px;line-height:1;">🏦</span>
+            <span class="card__label" id="skill_bank">Online Banking</span>
+          </button>
+
+          <button class="card" type="button" data-skill="transport">
+            <span class="card__icon" aria-hidden="true" style="font-size:48px;line-height:1;">🚌</span>
+            <span class="card__label" id="skill_transport">Finding Transport</span>
+          </button>
+
+          <button class="card" type="button" data-skill="language">
+            <span class="card__icon" aria-hidden="true" style="font-size:48px;line-height:1;">🔤</span>
+            <span class="card__label" id="skill_language">Language Learning</span>
+          </button>
+
+          <button class="card" type="button" data-skill="useful">
+            <span class="card__icon" aria-hidden="true" style="font-size:48px;line-height:1;">❤️</span>
+            <span class="card__label" id="skill_useful">Useful Apps</span>
+          </button>
+        </div>
+
+        <!-- Simple output area (for beginner-friendly feedback) -->
+        <div class="output" id="output" role="status" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <small id="footerText">Made for seniors — big text, simple steps, calm colors.</small>
+      <div class="footer__links">
+        <a class="footer__link" href="modules/tips.html">Tips & Tricks for Daily Life</a>
+      </div>
+    </footer>
+
+    <!-- Voice Help Modal -->
+    <div id="voiceModal" class="voiceModal" hidden role="dialog" aria-modal="true" aria-labelledby="voiceTitle">
+      <div id="voiceBackdrop" class="voiceModal__backdrop" aria-hidden="true"></div>
+      <div class="voiceModal__panel">
+        <div class="voiceModal__head">
+          <h2 class="voiceModal__title" id="voiceTitle">Ask for help (practice speaking)</h2>
+          <button class="pill" id="btnCloseVoice" type="button">Close</button>
+        </div>
+        <div class="voiceModal__body">
+          <p id="sttNote" class="detail"></p>
+          <div class="voiceLayout">
+            <div class="voiceList" id="voiceList" aria-label="Voice commands list"></div>
+            <div class="voiceSim" id="voiceSim" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="features/i18n.js"></script>
+    <script src="features/tts.js"></script>
+    <script src="features/progress.js"></script>
+    <script src="features/voice.js"></script>
+    <script src="features/accessibility.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

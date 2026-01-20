@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Online Banking — Aide aux Techno</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="bank.css" />
+  </head>
+
+  <body>
+    <header class="topbar" role="banner">
+      <div class="brand">
+        <div class="brand__appname">Aide aux Techno</div>
+        <div class="brand__subtitle" id="appSubtitleBank">Online Banking</div>
+      </div>
+      <nav class="lang" aria-label="Language selector">
+        <button class="lang__btn" type="button" data-lang="fr" aria-pressed="false">FR</button>
+        <button class="lang__btn" type="button" data-lang="zh" aria-pressed="false">中文</button>
+        <button class="lang__btn" type="button" data-lang="en" aria-pressed="true">EN</button>
+      </nav>
+    </header>
+
+    <div class="pathbar" role="region" aria-label="Guide tools">
+      <div>
+        <h1 class="title">Online Banking: Safe, Simple, and From Home</h1>
+        <p class="subtitle">Learn to manage your money securely without going to the bank.</p>
+        <div class="note">
+          Education only: this guide <strong>does not connect</strong> to any real bank accounts.
+        </div>
+      </div>
+      <div class="pathbar__actions">
+        <button class="pill" id="btnPrintQuick" type="button" data-i18n="common.print">Print Quick Start Sheet</button>
+        <button class="pill" id="btnPrintAll" type="button" data-i18n="common.printGuide">Print Full Guide</button>
+      </div>
+    </div>
+
+<main class="container" data-i18n-scope>
+      <!-- PART 1 -->
+      <section class="section" id="benefits">
+        <button class="section__head" type="button" data-toggle aria-expanded="true">
+          <span class="section__icon" aria-hidden="true">🏡</span>
+          <span class="section__title">Part 1: Why Online Banking? (The Benefits)</span>
+          <span class="section__chev" aria-hidden="true">▾</span>
+        </button>
+        <div class="section__body" data-body>
+          <h2>It Makes Life Easier</h2>
+          <div class="benefits">
+            <div class="benefit"><div class="bicon">🕐</div><div><div class="btitle">24/7 Access</div><div class="detail">Check balance or pay bills any time.</div></div></div>
+            <div class="benefit"><div class="bicon">🏡</div><div><div class="btitle">From Your Home</div><div class="detail">No travel, no lines, no bad weather.</div></div></div>
+            <div class="benefit"><div class="bicon">📄</div><div><div class="btitle">See Everything Clearly</div><div class="detail">Transactions in one list.</div></div></div>
+            <div class="benefit"><div class="bicon">⚡</div><div><div class="btitle">Fast & Automatic</div><div class="detail">Pay in seconds. Set automatic payments.</div></div></div>
+            <div class="benefit"><div class="bicon">📱</div><div><div class="btitle">On Your Phone</div><div class="detail">Deposit cheques by taking a picture.</div></div></div>
+          </div>
+          <p class="detail"><strong>Quick note:</strong> You are in control. You choose what to do and when.</p>
+        </div>
+      </section>
+
+      <!-- PART 2 -->
+      <section class="section" id="setup">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">🔑</span>
+          <span class="section__title">Part 2: Getting Started Safely</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+        <div class="section__body" data-body hidden>
+          <h2>Setting Up Your Online Banking</h2>
+
+          <article class="card2">
+            <h3>Step 1: Getting Your Access</h3>
+            <ul>
+              <li><strong>You will need:</strong> your debit card and the secret password/PIN provided by your bank.</li>
+              <li><strong>How to start:</strong> you must call your bank or visit a branch to activate online banking.</li>
+            </ul>
+            <div class="warn warn--red" role="note">
+              <strong>⚠️ Most important safety step:</strong>
+              Activate online banking only through your bank’s official phone number or in-person branch.
+              <button class="listen-btn pill" data-listen="#warnActivate" type="button">Listen</button>
+              <div id="warnActivate" class="sr-only">Activate online banking only through your bank’s official phone number or in-person branch. Never trust a caller who asks you to activate by clicking a link.</div>
+            </div>
+          </article>
+
+          <article class="card2">
+            <h3>Step 2: Logging In For The First Time</h3>
+            <ol class="steps">
+              <li data-i18n-html="pages.bank.setup.login.s1">Open your bank’s <strong>official app</strong> or go to their <strong>official website</strong>.</li>
+              <li data-i18n-html="pages.bank.setup.login.s2">Enter your <strong>client card number</strong> (on your debit card).</li>
+              <li data-i18n-html="pages.bank.setup.login.s3">Enter the password/PIN the bank gave you.</li>
+              <li data-i18n-html="pages.bank.setup.login.s4">Create a new <strong>strong online banking password</strong>.</li>
+              <li data-i18n-html="pages.bank.setup.login.s5">Optional: set up <strong>Face ID / Touch ID</strong> for easier logins.</li>
+            </ol>
+
+            <div class="warn warn--red" role="note">
+              <strong>⚠️ CRITICAL REMINDER</strong>
+              <ul>
+                <li>The bank will <strong>never</strong> call or email to ask for your password.</li>
+                <li>Your online banking password is <strong>different</strong> from your debit card PIN.</li>
+                <li>Write your password in a private notebook at home. Do not label it “bank password”.</li>
+              </ul>
+              <button class="listen-btn pill" data-listen="#warnCritical" type="button">Listen</button>
+              <div id="warnCritical" class="sr-only">Critical reminder: Banks never ask for your password by phone or email. Your online banking password is different from your debit card PIN. Write your password in a private notebook at home, and do not label it as a bank password.</div>
+            </div>
+          </article>
+
+          <div class="pace">Slow pace tip: Do one tutorial per week until you feel comfortable.</div>
+        </div>
+      </section>
+
+      <!-- PART 3 -->
+      <section class="section" id="tutorials">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">🧾</span>
+          <span class="section__title">Part 3: Tutorials (Common Tasks)</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+        <div class="section__body" data-body hidden>
+          <p class="detail">These are generic steps. Your bank may look a little different. Look for similar words.</p>
+
+          <article class="task">
+            <h3>1) How to Check Your Balance</h3>
+            <div class="diagram">[Your Bank's Screen Here] Accounts / Summary</div>
+            <ol class="steps">
+              <li data-i18n-html="pages.bank.tutorials.balance.s1">Log in.</li>
+              <li data-i18n-html="pages.bank.tutorials.balance.s2">Tap <strong>Accounts</strong> or <strong>Summary</strong>.</li>
+              <li data-i18n-html="pages.bank.tutorials.balance.s3">Look for <strong>Available Balance</strong>.</li>
+            </ol>
+            <div class="safe">🟢 Pro tip: Many banks offer “Quick Balance” without full login.</div>
+          </article>
+
+          <article class="task">
+            <h3>2) How to Pay a Bill (Hydro‑Québec, phone, etc.)</h3>
+            <div class="diagram">[Your Bank's Screen Here] Pay Bills</div>
+            <ol class="steps">
+              <li data-i18n-html="pages.bank.tutorials.pay_bills.s1">Log in → find <strong>Pay Bills</strong> / <strong>Bill Payments</strong>.</li>
+              <li data-i18n-html="pages.bank.tutorials.pay_bills.s2">Tap <strong>Add Payee</strong> / <strong>Add Bill</strong>.</li>
+              <li data-i18n-html="pages.bank.tutorials.pay_bills.s3">Search for the company (example: Hydro‑Québec).</li>
+              <li data-i18n-html="pages.bank.tutorials.pay_bills.s4">Enter your account number from the paper bill.</li>
+              <li data-i18n-html="pages.bank.tutorials.pay_bills.s5">Enter amount + date.</li>
+              <li data-i18n-html="pages.bank.tutorials.pay_bills.s6">Submit → save confirmation number.</li>
+            </ol>
+          </article>
+
+          <article class="task">
+            <h3>3) How to Send an Interac e‑Transfer</h3>
+            <div class="diagram">[Your Bank's Screen Here] Interac e‑Transfer</div>
+            <ol class="steps">
+              <li data-i18n-html="pages.bank.tutorials.etransfer.s1">Find <strong>Send Money</strong> / <strong>Interac e‑Transfer</strong>.</li>
+              <li data-i18n-html="pages.bank.tutorials.etransfer.s2">Enter recipient email or phone number.</li>
+              <li data-i18n-html="pages.bank.tutorials.etransfer.s3">Enter amount.</li>
+              <li data-i18n-html="pages.bank.tutorials.etransfer.s4">Create a security question + answer the person knows.</li>
+              <li data-i18n-html="pages.bank.tutorials.etransfer.s5">Review and send.</li>
+            </ol>
+            <div class="warn warn--yellow">🟡 Tip: Use a question only the recipient knows. Do not share the answer publicly.</div>
+          </article>
+
+          <article class="task">
+            <h3>4) How to Deposit a Cheque With Your Phone</h3>
+            <div class="diagram">[Your Bank's Screen Here] Mobile Cheque Deposit</div>
+            <ol class="steps">
+              <li data-i18n-html="pages.bank.tutorials.mobile_deposit.s1">Open your bank app → <strong>Mobile Cheque Deposit</strong>.</li>
+              <li data-i18n-html="pages.bank.tutorials.mobile_deposit.s2">Sign the back (write “For mobile deposit only”).</li>
+              <li data-i18n-html="pages.bank.tutorials.mobile_deposit.s3">Photo the front on a dark flat surface.</li>
+              <li data-i18n-html="pages.bank.tutorials.mobile_deposit.s4">Photo the back.</li>
+              <li data-i18n-html="pages.bank.tutorials.mobile_deposit.s5">Enter amount → Deposit.</li>
+              <li data-i18n-html="pages.bank.tutorials.mobile_deposit.s6">Keep the paper cheque 2 weeks, then destroy.</li>
+            </ol>
+          </article>
+        </div>
+      </section>
+
+      <!-- PART 4 -->
+      <section class="section" id="security">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">🔒</span>
+          <span class="section__title">Part 4: The Most Important Part — Security</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+        <div class="section__body" data-body hidden>
+          <h2>Protecting Your Money is Job #1</h2>
+
+          <div class="safe">🟢 DO: Use a strong unique password (example: <code>BlueSky$2024!</code>).</div>
+          <div class="danger">🔴 NEVER: share passwords, PINs, or click banking links in emails/texts.</div>
+
+          <article class="card2">
+            <h3>Rule 1: Passwords are keys to your house</h3>
+            <ul>
+              <li>DO use upper/lowercase, numbers, symbols.</li>
+              <li>DO NOT use birthdays, pet names, or “password123”.</li>
+              <li>DO NOT reuse your email/Facebook password.</li>
+            </ul>
+          </article>
+
+          <article class="card2">
+            <h3>Rule 2: Remember passwords (safely)</h3>
+            <ul>
+              <li><strong>Option A (recommended):</strong> a password manager (like iPhone Keychain or Chrome).</li>
+              <li><strong>Option B:</strong> a private notebook at home. Don’t label it “Bank Password”. Use a clue only you understand.</li>
+            </ul>
+          </article>
+
+          <article class="card2">
+            <h3>Rule 3: Recognize scams (phishing)</h3>
+            <div class="danger">
+              🔴 GOLDEN RULE: Never click a link in an email/text to log into your bank.
+              Always type the bank website yourself or open the official app.
+              <button class="listen-btn pill" data-listen="#warnGolden" type="button">Listen</button>
+              <div id="warnGolden" class="sr-only">Golden rule: never click a link in an email or text to log into your bank. Always type the bank website yourself or open the official app.</div>
+            </div>
+            <ul>
+              <li><strong>Scam email:</strong> “Urgent! Your account is locked. Click here.” → Delete.</li>
+              <li><strong>Scam call:</strong> “We need your password to verify.” → Hang up.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- PART 5 -->
+      <section class="section" id="habits">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">🛡️</span>
+          <span class="section__title">Part 5: Staying Safe Online (Good Habits)</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+        <div class="section__body" data-body hidden>
+          <ol class="steps">
+            <li data-i18n-html="pages.bank.habits.s1"><strong>Keep software updated</strong> (updates fix security holes).</li>
+            <li data-i18n-html="pages.bank.habits.s2"><strong>Use secure Wi‑Fi</strong>: home Wi‑Fi or mobile data only. Never public Wi‑Fi.</li>
+            <li data-i18n-html="pages.bank.habits.s3"><strong>Log out</strong> when finished (don’t just close the window).</li>
+            <li data-i18n-html="pages.bank.habits.s4"><strong>Check statements</strong> monthly.</li>
+            <li data-i18n-html="pages.bank.habits.s5"><strong>Turn on 2‑Factor Authentication</strong> if offered.</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- PART 6 -->
+      <section class="section" id="wrong">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">🆘</span>
+          <span class="section__title">Part 6: What To Do If Something Goes Wrong</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+        <div class="section__body" data-body hidden>
+          <div class="card2">
+            <h3>Don’t panic. Take these steps.</h3>
+            <ul>
+              <li data-i18n-html="pages.bank.wrong.s1"><strong>Forgot password:</strong> use “Forgot Password” on the official login page.</li>
+              <li data-i18n-html="pages.bank.wrong.s2"><strong>Unknown transaction:</strong> call your bank’s fraud department immediately (number on debit card).</li>
+              <li data-i18n-html="pages.bank.wrong.s3"><strong>Clicked a bad link:</strong> change password immediately, then call your bank.</li>
+              <li data-i18n-html="pages.bank.wrong.s4"><strong>Locked out:</strong> call customer service. They will verify your identity.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PART 7 -->
+      <section class="section" id="practice">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">✅</span>
+          <span class="section__title">Part 7: Practice & Checklists</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+        <div class="section__body" data-body hidden>
+          <article class="card2">
+            <h3>My Banking Safety Checklist</h3>
+            <ul class="checklist" id="bankChecklist"></ul>
+          </article>
+
+          <article class="card2">
+            <h3>Interactive Practice (Simulated Safe Environment)</h3>
+            <p class="detail">This is a fake practice screen. It does not log in anywhere.</p>
+
+            <div class="simgrid">
+              <div class="sim">
+                <div class="simtitle">Practice Login Page</div>
+                <div class="simbox" id="practiceLogin">
+                  <div class="row">
+                    <div class="label">Client Card Number</div>
+                    <input class="practice-input" type="text" placeholder="1234 5678 9012" />
+                  </div>
+                  <div class="row">
+                    <div class="label">Password</div>
+                    <input class="practice-input" type="password" placeholder="••••••••" />
+                  </div>
+                  <button class="pill primary" type="button">Log In (Practice)</button>
+                  <div class="safe">🟢 Safe sign: You opened your bank app or typed the bank website yourself.</div>
+                  <div class="danger">🔴 Danger sign: A pop‑up says “Account locked — click here.”</div>
+                </div>
+              </div>
+
+              <div class="sim">
+                <div class="simtitle">Spot the Scam Email (Quiz)</div>
+                <div class="quiz" id="scamQuiz"></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- PART 8 -->
+      <section class="section" id="help">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">🧑‍🤝‍🧑</span>
+          <span class="section__title">Part 8: Getting Help</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+        <div class="section__body" data-body hidden>
+          <ul>
+            <li><strong>Family:</strong> ask a trusted child/grandchild to sit with you.</li>
+            <li><strong>Your bank:</strong> book an appointment for a tutorial.</li>
+            <li><strong>Community centers:</strong> libraries and seniors’ centers may offer workshops.</li>
+          </ul>
+          <div class="note big">
+            Online banking is a powerful tool for independence. By following these safety rules, you can enjoy its convenience with confidence. Take it one step at a time. You've got this.
+          </div>
+        </div>
+      </section>
+
+      <section class="card2" aria-label="Completion">
+        <h2>Finish this lesson</h2>
+        <div id="completionPanel"></div>
+      </section>
+
+      <nav class="bottom-nav">
+        <a class="pill" data-prev href="index.html">Back</a>
+        <a class="pill" data-home href="index.html">Home</a>
+        <a class="pill" href="apps.html">Useful Apps</a>
+        <a class="pill primary" href="tips.html">Tips & Tricks</a>
+      </nav>
+    </main>
+
+    <script src="translations.js"></script>
+    <script src="features/i18n.js"></script>
+    <script src="tts.js"></script>
+    <script src="progress.js"></script>
+    <script src="bank.js"></script>
+  </body>
+</html>

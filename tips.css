@@ -1,0 +1,54 @@
+/* tips.css — warm and friendly */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.8rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(90deg, #fff3e0, #fff8e1);
+}
+.subtitle { margin: 0.2rem 0 0; color: var(--muted); font-size: 1rem; }
+.hero__actions { display: inline-flex; gap: 0.5rem; flex-wrap: wrap; }
+
+.card {
+  border: 2px solid var(--border);
+  border-radius: 1rem;
+  background: #fff;
+  padding: 1rem;
+  margin: 0.9rem 0;
+}
+
+.warm { background: #fffdf5; border-color: #ffe0b2; }
+
+.row { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+
+.biglist { font-size: 1.05rem; line-height: 1.55; }
+.biglist li { margin: 0.6rem 0; }
+
+.tipbox {
+  border: 2px dashed #ffcc80;
+  background: #fff3e0;
+  border-radius: 1rem;
+  padding: 0.9rem;
+  font-weight: 900;
+  min-height: 72px;
+}
+
+.quote {
+  border: 2px solid var(--border);
+  border-radius: 1rem;
+  background: #f7fbfc;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.bottom-nav { display: flex; gap: 0.6rem; justify-content: space-between; align-items: center; margin: 1rem 0; flex-wrap: wrap; }
+
+/* Print */
+@media print {
+  .topbar, .hero__actions, .bottom-nav, button { display: none !important; }
+  .card { border: 0; }
+}

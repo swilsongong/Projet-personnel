@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Useful Apps — Aide aux Techno</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="apps.css" />
+  </head>
+  <body>
+    <header class="topbar" role="banner">
+      <div class="brand">
+        <div class="brand__appname">Aide aux Techno</div>
+        <div class="brand__subtitle" id="appSubtitleApps">Useful Apps for Seniors</div>
+      </div>
+      <nav class="lang" aria-label="Language selector">
+        <button class="lang__btn" type="button" data-lang="fr" aria-pressed="false">FR</button>
+        <button class="lang__btn" type="button" data-lang="zh" aria-pressed="false">中文</button>
+        <button class="lang__btn" type="button" data-lang="en" aria-pressed="true">EN</button>
+      </nav>
+    </header>
+
+    <!-- Toolbar: search + filter + print -->
+    <div class="apptoolbar" role="region" aria-label="App filters and actions">
+      <div class="searchrow">
+        <label class="search__label" for="appSearch">Find app for…</label>
+        <input id="appSearch" class="search__input" type="search" placeholder="family, photos, bus, translate, banking…" data-i18n-attr="placeholder=search_placeholder" />
+        <label class="toggle"><input type="checkbox" id="easyOnly" /> Show 🟢 Easy apps only</label>
+        <button class="pill" id="btnPrintApps" type="button" data-i18n="common.printGuide">Print This List</button>
+      </div>
+      <div class="flow" aria-label="Quick chooser">
+        <span class="flow__title">Start here → What do you want to do?</span>
+        <div class="flow__grid">
+          <button class="flowbtn" data-flow="family">Talk to family</button>
+          <button class="flowbtn" data-flow="photos">See family photos</button>
+          <button class="flowbtn" data-flow="bus">Check bus time</button>
+          <button class="flowbtn" data-flow="french">Learn French</button>
+          <button class="flowbtn" data-flow="bank">Bank safely</button>
+        </div>
+      </div>
+    </div>
+
+<main class="container" data-i18n-scope>
+      <!-- SOCIAL & CONNECTION (Blue) -->
+      <section id="cat_social" class="cat sec--blue" aria-label="Social and connection">
+        <div class="cat__head">
+          <h2>Social & Connection</h2>
+          <p class="cat__hint">Stay in touch with family and friends, see photos and videos.</p>
+        </div>
+        <div class="apps">
+          <!-- YouTube -->
+          <article class="appcard" data-tags="video learn music grandchildren tutorial youtube family" data-ease="easy" data-safety="green">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--yt" aria-hidden="true">▶</span>
+              <span class="appname">YouTube</span>
+              <span class="badges"><span class="shield g" title="Generally safe">🟢</span><span class="ease e">Easy</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <p><strong>What it is:</strong> Watch videos on any topic.</p>
+              <p><strong>Why it's good:</strong> Grandchildren videos, old music, tutorials.</p>
+              <p><strong>Safety tip:</strong> Stick to subscribed channels; avoid random links.</p>
+              <div class="actions">
+                <button class="pill helpbtn" data-app="YouTube">Ask for help setting up</button>
+                <button class="listen-btn pill" data-listen>Listen</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Facebook -->
+          <article class="appcard" data-tags="facebook photos family groups birthday" data-ease="medium" data-safety="yellow">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--fb" aria-hidden="true">f</span>
+              <span class="appname">Facebook</span>
+              <span class="badges"><span class="shield y" title="Needs careful setup">🟡</span><span class="ease m">Medium</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <p><strong>What it is:</strong> See family photos and updates.</p>
+              <p><strong>Why it's good:</strong> Family groups, community news, birthday reminders.</p>
+              <p><strong>Setup help needed?</strong> <strong>Yes</strong> — Ask family to help create an account and adjust privacy. Enable <em>Text Size: Large</em> in settings.</p>
+              <div class="actions">
+                <button class="pill helpbtn" data-app="Facebook">Ask for help setting up</button>
+                <button class="listen-btn pill" data-listen>Listen</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Messenger -->
+          <article class="appcard" data-tags="messenger video call chat facebook" data-ease="easy" data-safety="green">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--msgr" aria-hidden="true">⚡</span>
+              <span class="appname">Facebook Messenger</span>
+              <span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <p><strong>What it is:</strong> Simple video calls and messaging.</p>
+              <p><strong>Why it's good:</strong> Big video buttons, see who’s calling.</p>
+              <div class="actions">
+                <button class="pill helpbtn" data-app="Facebook Messenger">Ask for help setting up</button>
+                <button class="listen-btn pill" data-listen>Listen</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- WeChat -->
+          <article class="appcard" data-tags="wechat chinese chat voice message group" data-ease="easy" data-safety="green">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--wechat" aria-hidden="true">💬</span>
+              <span class="appname">WeChat (微信)</span>
+              <span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <p><strong>What it is:</strong> Popular messaging app in Chinese community.</p>
+              <p><strong>Why it's good:</strong> Voice messages, group chats, Chinese interface.</p>
+              <div class="actions">
+                <button class="pill helpbtn" data-app="WeChat">Ask for help setting up</button>
+                <button class="listen-btn pill" data-listen>Listen</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Instagram -->
+          <article class="appcard" data-tags="instagram photos grandchildren private" data-ease="medium" data-safety="yellow">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--ig" aria-hidden="true">📷</span>
+              <span class="appname">Instagram</span>
+              <span class="badges"><span class="shield y">🟡</span><span class="ease m">Medium</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <p><strong>What it is:</strong> Photo and video sharing.</p>
+              <p><strong>Why it's good:</strong> Follow family and see grandchildren’s photos.</p>
+              <p><strong>Safety tip:</strong> Keep your profile <em>Private</em>.</p>
+              <div class="actions">
+                <button class="pill helpbtn" data-app="Instagram">Ask for help setting up</button>
+                <button class="listen-btn pill" data-listen>Listen</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- TRANSPORT (Green) -->
+      <section id="cat_transport" class="cat sec--green" aria-label="Getting around - transport">
+        <div class="cat__head">
+          <h2>Getting Around — Transport (Montreal)</h2>
+          <p class="cat__hint">Bus, metro, taxi, and navigation in Montreal.</p>
+        </div>
+        <div class="apps">
+          <!-- Chrono STM -->
+          <article class="appcard" data-tags="chrono stm metro bus opus nfc montreal" data-ease="medium" data-safety="green">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--chrono" aria-hidden="true">🅲</span>
+              <span class="appname">Chrono – STM</span>
+              <span class="badges"><span class="shield g">🟢</span><span class="ease m">Medium</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <ul>
+                <li>Check next bus times</li>
+                <li>Plan A → B trips</li>
+                <li>See metro status</li>
+                <li><strong>Reload OPUS with phone</strong> (NFC needed)</li>
+              </ul>
+              <p><strong>Important:</strong> Your phone must support NFC to reload the card.</p>
+              <div class="actions">
+                <button class="pill helpbtn" data-app="Chrono (STM)">Ask for help setting up</button>
+                <button class="listen-btn pill" data-listen>Listen</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Transit -->
+          <article class="appcard" data-tags="transit bus real time map montreal" data-ease="easy" data-safety="green">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--transit" aria-hidden="true">T</span>
+              <span class="appname">Transit</span>
+              <span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <p><strong>What it is:</strong> Real‑time bus/train tracker.</p>
+              <p><strong>Why it's good:</strong> Simple maps, “Go” button tells you when to leave.</p>
+              <div class="actions">
+                <button class="pill helpbtn" data-app="Transit">Ask for help setting up</button>
+                <button class="listen-btn pill" data-listen>Listen</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Uber -->
+          <article class="appcard" data-tags="uber ride taxi car groceries doctor" data-ease="medium" data-safety="yellow">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--uber" aria-hidden="true">U</span>
+              <span class="appname">Uber</span>
+              <span class="badges"><span class="shield y">🟡</span><span class="ease m">Medium</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <p><strong>What it is:</strong> Call a car to your location.</p>
+              <p><strong>Setup help needed?</strong> <strong>Yes</strong> — Needs payment method and account.</p>
+              <p><strong>Safety:</strong> Driver info and car plate shown before ride.</p>
+              <div class="actions">
+                <button class="pill helpbtn" data-app="Uber">Ask for help setting up</button>
+                <button class="listen-btn pill" data-listen>Listen</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Taxi Coop -->
+          <article class="appcard" data-tags="taxi coop montreal phone cash card" data-ease="easy" data-safety="green">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--taxi" aria-hidden="true">🚕</span>
+              <span class="appname">Taxi Coop Montréal</span>
+              <span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <p><strong>Alternative to Uber:</strong> Pay by cash or card.</p>
+              <p><strong>Phone to call:</strong> 514‑725‑9888</p>
+              <div class="actions">
+                <button class="pill helpbtn" data-app="Taxi Coop Montréal">Ask for help setting up</button>
+                <button class="listen-btn pill" data-listen>Listen</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- MONEY & BANKING (Gold) -->
+      <section id="cat_bank" class="cat sec--gold" aria-label="Money and banking">
+        <div class="cat__head">
+          <h2>Money & Banking</h2>
+          <div class="warn warn--yellow"><strong>⚠️ Use only your real bank’s app. Never share passwords or PINs. Ask a trusted family member to help the first time.</strong></div>
+        </div>
+        <div class="apps">
+          <!-- Bank list condensed (each expands with general guidance) -->
+          <article class="appcard" data-tags="rbc bank money e-transfer bills" data-ease="medium" data-safety="red">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--rbc" aria-hidden="true">🏦</span>
+              <span class="appname">RBC Mobile</span>
+              <span class="badges"><span class="shield r">🔴</span><span class="ease m">Medium</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <p>Check balance, pay bills, send money.</p>
+              <ul>
+                <li>Large Text Mode in settings</li>
+                <li>Quick Balance (no full login)</li>
+                <li>Bill Pay & Interac e‑Transfer</li>
+              </ul>
+              <ol class="steps">
+                <li>Download official app.</li>
+                <li>Call your bank or visit a branch to activate.</li>
+                <li>Log in with client card and password.</li>
+                <li>Set up Touch ID / Face ID.</li>
+                <li>Bookmark app and log out after use.</li>
+              </ol>
+              <div class="actions">
+                <button class="pill helpbtn" data-app="RBC Mobile">Ask for help setting up</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="appcard" data-tags="td bank money bills e-transfer" data-ease="medium" data-safety="red">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--td" aria-hidden="true">TD</span>
+              <span class="appname">TD Canada</span>
+              <span class="badges"><span class="shield r">🔴</span><span class="ease m">Medium</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <p>Banking features similar to RBC.</p>
+              <div class="actions">
+                <button class="pill helpbtn" data-app="TD Canada">Ask for help setting up</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="appcard" data-tags="scotiabank bank money bills" data-ease="medium" data-safety="red">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--scotia" aria-hidden="true">S</span>
+              <span class="appname">Scotiabank</span>
+              <span class="badges"><span class="shield r">🔴</span><span class="ease m">Medium</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <p>Use the official app only; follow the general steps above.</p>
+              <div class="actions"><button class="pill helpbtn" data-app="Scotiabank">Ask for help setting up</button></div>
+            </div>
+          </article>
+
+          <article class="appcard" data-tags="bmo bank money bills" data-ease="medium" data-safety="red">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--bmo" aria-hidden="true">BMO</span>
+              <span class="appname">BMO Mobile</span>
+              <span class="badges"><span class="shield r">🔴</span><span class="ease m">Medium</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <div class="actions"><button class="pill helpbtn" data-app="BMO Mobile">Ask for help setting up</button></div>
+            </div>
+          </article>
+
+          <article class="appcard" data-tags="cibc bank money bills" data-ease="medium" data-safety="red">
+            <button class="appcard__head" type="button" aria-expanded="false">
+              <span class="icon icon--cibc" aria-hidden="true">CIBC</span>
+              <span class="appname">CIBC Mobile</span>
+              <span class="badges"><span class="shield r">🔴</span><span class="ease m">Medium</span></span>
+            </button>
+            <div class="appcard__body" hidden>
+              <div class="actions"><button class="pill helpbtn" data-app="CIBC Mobile">Ask for help setting up</button></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- HEALTH & WELLNESS (Teal) -->
+      <section id="cat_health" class="cat sec--teal" aria-label="Health and wellness">
+        <div class="cat__head"><h2>Health & Wellness</h2></div>
+        <div class="apps">
+          <article class="appcard" data-tags="medisafe pill medicine reminder" data-ease="easy" data-safety="green">
+            <button class="appcard__head" type="button" aria-expanded="false"><span class="icon">💊</span><span class="appname">Medisafe</span><span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span></button>
+            <div class="appcard__body" hidden>
+              <p>Pill reminder and tracker; refill reminders; simple history log.</p>
+              <div class="actions"><button class="pill helpbtn" data-app="Medisafe">Ask for help setting up</button></div>
+            </div>
+          </article>
+          <article class="appcard" data-tags="pacer steps stepcounter walking" data-ease="easy" data-safety="green">
+            <button class="appcard__head" type="button" aria-expanded="false"><span class="icon">🚶</span><span class="appname">Pacer / StepCounter</span><span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span></button>
+            <div class="appcard__body" hidden>
+              <p>Tracks walking steps to encourage gentle movement.</p>
+              <div class="actions"><button class="pill helpbtn" data-app="Pacer">Ask for help setting up</button></div>
+            </div>
+          </article>
+          <article class="appcard" data-tags="calm relax melodies sleep meditation" data-ease="easy" data-safety="green">
+            <button class="appcard__head" type="button" aria-expanded="false"><span class="icon">🌙</span><span class="appname">Calm / Relax Melodies</span><span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span></button>
+            <div class="appcard__body" hidden>
+              <p>Sleep sounds and meditation guides to help relaxation.</p>
+              <div class="actions"><button class="pill helpbtn" data-app="Calm">Ask for help setting up</button></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- LANGUAGE (Purple) -->
+      <section id="cat_language" class="cat sec--purple" aria-label="Language learning">
+        <div class="cat__head"><h2>Language Learning</h2></div>
+        <div class="apps">
+          <article class="appcard" data-tags="duolingo french english game" data-ease="easy" data-safety="green">
+            <button class="appcard__head" type="button" aria-expanded="false"><span class="icon">🦉</span><span class="appname">Duolingo</span><span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span></button>
+            <div class="appcard__body" hidden>
+              <p>Game‑like lessons; 5 minutes a day; big buttons.</p>
+              <p><strong>Tip:</strong> Start with “French for English Speakers” or “English for Chinese Speakers”.</p>
+              <div class="actions"><button class="pill helpbtn" data-app="Duolingo">Ask for help setting up</button></div>
+            </div>
+          </article>
+          <article class="appcard" data-tags="google translate camera speech conversation" data-ease="easy" data-safety="green">
+            <button class="appcard__head" type="button" aria-expanded="false"><span class="icon">🌐</span><span class="appname">Google Translate</span><span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span></button>
+            <div class="appcard__body" hidden>
+              <p>Translates words, text, and speech. Point camera at French text → see Chinese. Try <strong>Conversation Mode</strong>.</p>
+              <div class="actions"><button class="pill helpbtn" data-app="Google Translate">Ask for help setting up</button></div>
+            </div>
+          </article>
+          <article class="appcard" data-tags="mauril french canada cbc radio canada" data-ease="medium" data-safety="green">
+            <button class="appcard__head" type="button" aria-expanded="false"><span class="icon">📺</span><span class="appname">Mauril (CBC/Radio‑Canada)</span><span class="badges"><span class="shield g">🟢</span><span class="ease m">Medium</span></span></button>
+            <div class="appcard__body" hidden>
+              <p>Learn Canadian French with TV clips; free, made for adults.</p>
+              <div class="actions"><button class="pill helpbtn" data-app="Mauril">Ask for help setting up</button></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- EVERYDAY LIFE (Orange) -->
+      <section id="cat_daily" class="cat sec--orange" aria-label="Everyday life">
+        <div class="cat__head"><h2>Everyday Life</h2></div>
+        <div class="apps">
+          <article class="appcard" data-tags="weather forecast" data-ease="easy" data-safety="green"><button class="appcard__head" type="button" aria-expanded="false"><span class="icon">☀️</span><span class="appname">The Weather Network</span><span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span></button><div class="appcard__body" hidden><div class="actions"><button class="pill helpbtn" data-app="The Weather Network">Ask for help setting up</button></div></div></article>
+          <article class="appcard" data-tags="cbc news canada" data-ease="easy" data-safety="green"><button class="appcard__head" type="button" aria-expanded="false"><span class="icon">📰</span><span class="appname">CBC News</span><span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span></button><div class="appcard__body" hidden><div class="actions"><button class="pill helpbtn" data-app="CBC News">Ask for help setting up</button></div></div></article>
+          <article class="appcard" data-tags="flipp grocery flyers" data-ease="easy" data-safety="green"><button class="appcard__head" type="button" aria-expanded="false"><span class="icon">🧾</span><span class="appname">Flipp</span><span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span></button><div class="appcard__body" hidden><p>Weekly grocery flyers and deals.</p><div class="actions"><button class="pill helpbtn" data-app="Flipp">Ask for help setting up</button></div></div></article>
+          <article class="appcard" data-tags="google maps navigation directions" data-ease="easy" data-safety="green"><button class="appcard__head" type="button" aria-expanded="false"><span class="icon">📍</span><span class="appname">Google Maps</span><span class="badges"><span class="shield g">🟢</span><span class="ease e">Easy</span></span></button><div class="appcard__body" hidden><p>Find places and get directions.</p><div class="actions"><button class="pill helpbtn" data-app="Google Maps">Ask for help setting up</button></div></div></article>
+        </div>
+      </section>
+
+      <!-- Safety labels legend -->
+      <section class="legend card2">
+        <h3>Safety Labels</h3>
+        <ul>
+          <li>🟢 Green Shield: Generally safe, good privacy</li>
+          <li>🟡 Yellow Shield: Needs careful setup (privacy settings)</li>
+          <li>🔴 Red Shield: Needs family help to set up (banking/social accounts)</li>
+        </ul>
+      </section>
+
+      <!-- Starter pack -->
+      <section class="starter card2">
+        <h3>My First 5 Apps (Starter Pack)</h3>
+        <ol>
+          <li><strong>Transit</strong> — get around</li>
+          <li><strong>Google Translate</strong> — language help</li>
+          <li><strong>YouTube</strong> — entertainment & learning</li>
+          <li><strong>Medisafe</strong> — health reminders</li>
+          <li><strong>Your Bank's App</strong> — with family help</li>
+        </ol>
+        <button class="pill" id="btnPrintStarter">Print This List</button>
+      </section>
+
+      <section class="card2" aria-label="Completion">
+        <h2>Finish this lesson</h2>
+        <div id="completionPanel"></div>
+      </section>
+
+      <!-- Installation help videos (links + QR) -->
+      <section class="videos card2">
+        <h3>Installation Help Video Links</h3>
+        <div class="videos__grid">
+          <div class="videoitem">
+            <div class="vtitle">How to Install WeChat for Beginners</div>
+            <div class="vrow">
+              <a class="pill" target="_blank" href="https://www.youtube.com/results?search_query=How+to+Install+WeChat+for+Beginners">Open video search</a>
+              <img class="qr" alt="QR for WeChat install" src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https%3A%2F%2Fwww.youtube.com%2Fresults%3Fsearch_query%3DHow%2Bto%2BInstall%2BWeChat%2Bfor%2BBeginners" />
+            </div>
+          </div>
+          <div class="videoitem">
+            <div class="vtitle">How to Use Chrono STM App</div>
+            <div class="vrow">
+              <a class="pill" target="_blank" href="https://www.youtube.com/results?search_query=How+to+use+Chrono+STM+app">Open video search</a>
+              <img class="qr" alt="QR for Chrono STM" src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https%3A%2F%2Fwww.youtube.com%2Fresults%3Fsearch_query%3DHow%2Bto%2Buse%2BChrono%2BSTM%2Bapp" />
+            </div>
+          </div>
+          <div class="videoitem">
+            <div class="vtitle">How to Set Up Online Banking Safely</div>
+            <div class="vrow">
+              <a class="pill" target="_blank" href="https://www.youtube.com/results?search_query=How+to+set+up+online+banking+safely">Open video search</a>
+              <img class="qr" alt="QR for online banking safety" src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https%3A%2F%2Fwww.youtube.com%2Fresults%3Fsearch_query%3DHow%2Bto%2Bset%2Bup%2Bonline%2Bbanking%2Bsafely" />
+            </div>
+          </div>
+          <div class="videoitem">
+            <div class="vtitle">Duolingo First Lesson Guide</div>
+            <div class="vrow">
+              <a class="pill" target="_blank" href="https://www.youtube.com/results?search_query=Duolingo+first+lesson+guide">Open video search</a>
+              <img class="qr" alt="QR for Duolingo" src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https%3A%2F%2Fwww.youtube.com%2Fresults%3Fsearch_query%3DDuolingo%2Bfirst%2Blesson%2Bguide" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav">
+      <a class="pill" data-prev href="index.html">Back</a>
+      <a class="pill" data-home href="index.html">Home</a>
+      <a class="pill primary" href="tips.html" data-i18n="page_titles.tips">Tips & Tricks</a>
+    </nav>
+
+    <script src="translations.js"></script>
+    <script src="features/i18n.js"></script>
+    <script src="tts.js"></script>
+    <script src="progress.js"></script>
+    <script src="apps.js"></script>
+  </body>
+</html>

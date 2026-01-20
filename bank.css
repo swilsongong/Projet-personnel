@@ -1,0 +1,101 @@
+/* bank.css — safety-first, senior-friendly */
+
+.pathbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(90deg, #dff7f3, #cfeff5);
+}
+.subtitle { margin: 0.2rem 0 0; color: var(--muted); font-size: 1rem; }
+.pathbar__actions { display: inline-flex; gap: 0.5rem; flex-wrap: wrap; }
+
+.note { margin-top: 0.6rem; padding: 0.7rem; border-radius: 1rem; border: 2px solid var(--border); background: #e8f5f7; font-weight: 800; }
+.note.big { font-weight: 900; }
+
+.section { margin: 0.9rem 0; border: 2px solid var(--border); border-radius: 1rem; background: #fff; overflow: hidden; }
+.section__head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.9rem 1rem;
+  border: 0;
+  background: #ffffff;
+  cursor: pointer;
+  text-align: left;
+  min-height: 56px;
+}
+.section__head:focus { outline: 4px solid var(--focus); outline-offset: 2px; }
+.section__icon { font-size: 1.4rem; }
+.section__title { font-weight: 900; }
+.section__chev { margin-left: auto; font-weight: 900; color: var(--muted); }
+.section__body { padding: 0.9rem 1rem 1.1rem; }
+
+.card2 { border: 2px solid var(--border); border-radius: 1rem; background: #fff; padding: 1rem; margin: 0.7rem 0; }
+
+.benefits { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.7rem; }
+.benefit { border: 2px solid var(--border); border-radius: 1rem; padding: 0.8rem; background: #f7fbfc; display: grid; grid-template-columns: 46px 1fr; gap: 0.6rem; }
+.bicon { font-size: 1.6rem; }
+.btitle { font-weight: 900; }
+
+.task { border: 2px solid var(--border); border-radius: 1rem; padding: 1rem; background: #fff; margin: 0.7rem 0; }
+
+.diagram { border: 2px dashed var(--border); border-radius: 0.9rem; min-height: 90px; display: flex; align-items: center; justify-content: center; color: var(--muted); margin: 0.5rem 0; text-align: center; padding: 0.6rem; }
+
+.safe { border: 2px solid #2e7d32; background: #e8f5e9; border-radius: 1rem; padding: 0.7rem; font-weight: 900; margin: 0.6rem 0; }
+.danger { border: 2px solid #b00020; background: #ffebee; border-radius: 1rem; padding: 0.7rem; font-weight: 900; margin: 0.6rem 0; }
+
+.warn { border-radius: 1rem; border: 2px solid var(--border); padding: 0.8rem; margin: 0.6rem 0; }
+.warn--yellow { background: #fff8e1; border-color: #fbc02d; }
+.warn--red { background: #ffebee; border-color: #d32f2f; }
+
+.pace { border-left: 6px solid var(--accent); padding: 0.6rem 0.8rem; color: var(--muted); font-weight: 800; background: #f7fbfc; border-radius: 0.9rem; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.simgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+@media (max-width: 900px) { .simgrid { grid-template-columns: 1fr; } }
+.sim { border: 2px solid var(--border); border-radius: 1rem; padding: 0.8rem; background: #fff; }
+.simtitle { font-weight: 900; margin-bottom: 0.5rem; }
+.simbox { border: 2px dashed var(--border); border-radius: 1rem; padding: 0.8rem; background: #f7fbfc; }
+
+.row { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; }
+.label { font-weight: 900; }
+
+.checklist { list-style: none; padding-left: 0; }
+.checklist li { margin: 0.35rem 0; }
+.checklist input { width: 22px; height: 22px; }
+
+.quizQ { border-top: 1px solid var(--border); padding-top: 0.6rem; margin-top: 0.6rem; }
+.quizQ:first-child { border-top: 0; padding-top: 0; margin-top: 0; }
+.quizOpt { display: block; padding: 0.35rem 0; }
+.quizFb { font-weight: 900; margin-top: 0.3rem; }
+
+.bottom-nav { display: flex; gap: 0.6rem; justify-content: space-between; align-items: center; margin: 1rem 0; flex-wrap: wrap; }
+
+/* Print */
+@media print {
+  .topbar, .pathbar, .bottom-nav, button, input, select { display: none !important; }
+  .section { border: 0; }
+  .card2, .task, .sim { border: 0; }
+  .diagram { display: none !important; }
+}
+
+/* Quick sheet print mode */
+body.print-quick .section { display: none; }
+body.print-quick #setup, body.print-quick #security, body.print-quick #wrong { display: block; }
+body.print-quick .section__body { display: block !important; }
+body.print-quick [data-body][hidden] { display: block !important; }

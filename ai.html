@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Using AI Tools — Aide aux Techno</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="ai.css" />
+  </head>
+
+  <body>
+    <header class="topbar" role="banner">
+      <div class="brand">
+        <div class="brand__appname" id="appNameAI">Aide aux Techno</div>
+        <div class="brand__subtitle" id="appSubtitleAI">Using AI Tools</div>
+      </div>
+
+      <nav class="lang" aria-label="Language selector">
+        <button class="lang__btn" type="button" data-lang="fr" aria-pressed="false">FR</button>
+        <button class="lang__btn" type="button" data-lang="zh" aria-pressed="false">中文</button>
+        <button class="lang__btn" type="button" data-lang="en" aria-pressed="true">EN</button>
+      </nav>
+    </header>
+
+    <!-- Learning path header (progress) -->
+    <div class="pathbar" role="region" aria-label="Learning path progress">
+      <div class="pathbar__left">
+        <div class="pathbar__step" id="pathStep">Step 1/4: Choosing Your AI</div>
+        <div class="pathbar__hint" id="pathHint">Tap a section to open it. Use “Listen” if you prefer audio.</div>
+      </div>
+      <div class="pathbar__right">
+        <button class="pill" id="btnPrint">Print This Guide</button>
+      </div>
+    </div>
+
+<main class="container" data-i18n-scope>
+      <!-- SECTION 1: INTRO -->
+      <section class="section" data-step="1">
+        <button class="section__head" type="button" data-toggle aria-expanded="true">
+          <span class="section__icon" aria-hidden="true">🤖</span>
+          <span class="section__title">1. What is AI?</span>
+          <span class="section__chev" aria-hidden="true">▾</span>
+        </button>
+
+        <div class="section__body" data-body>
+          <div class="hero">
+            <div class="hero__icon" aria-hidden="true">
+              <!-- Friendly robot with speech bubble (simple SVG) -->
+              <svg viewBox="0 0 200 120" role="img" focusable="false" class="robot">
+                <rect x="20" y="28" width="84" height="72" rx="16" fill="#2ea3a1" />
+                <rect x="40" y="48" width="44" height="28" rx="8" fill="#ffffff" />
+                <circle cx="55" cy="62" r="6" fill="#1e7b79" />
+                <circle cx="69" cy="62" r="6" fill="#1e7b79" />
+                <rect x="58" y="18" width="8" height="16" fill="#1e7b79" />
+                <circle cx="62" cy="14" r="6" fill="#1e7b79" />
+                <path d="M122 30c0-10 8-18 18-18h26c10 0 18 8 18 18v30c0 10-8 18-18 18h-8l-10 12v-12h-8c-10 0-18-8-18-18V30Z" fill="#e3f2fd" stroke="#90caf9" />
+                <circle cx="152" cy="45" r="4" fill="#1976d2" />
+                <circle cx="166" cy="45" r="4" fill="#1976d2" />
+                <circle cx="138" cy="45" r="4" fill="#1976d2" />
+              </svg>
+            </div>
+            <div class="hero__text">
+              <p class="big">
+                AI is like a <strong>helpful digital assistant</strong> on your phone or computer.
+              </p>
+              <ul class="big">
+                <li>Answers questions anytime</li>
+                <li>Helps with writing and ideas</li>
+                <li>Translates languages</li>
+                <li>Remembers information for you (inside your chat)</li>
+              </ul>
+            </div>
+          </div>
+
+          <button class="listen-btn pill" data-listen="#secIntro">Listen</button>
+          <div id="secIntro" class="sr-only">
+            AI is like a helpful digital assistant on your phone or computer. It can answer questions anytime, help with writing and ideas, translate languages, and remember information inside your chat.
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: CHOOSE YOUR AI (comparison) -->
+      <section class="section" data-step="1">
+        <button class="section__head" type="button" data-toggle aria-expanded="true">
+          <span class="section__icon" aria-hidden="true">🧩</span>
+          <span class="section__title">2. Choose an AI assistant</span>
+          <span class="section__chev" aria-hidden="true">▾</span>
+        </button>
+
+        <div class="section__body" data-body>
+          <p class="big">Tap a card to see how to install it (📱 phone/tablet, 💻 computer).</p>
+
+          <!-- “Table” as big tappable cards for mobile-friendly use -->
+          <div class="ai-table" role="list" aria-label="AI assistant comparison">
+            <article class="ai-row" role="listitem">
+              <button class="ai-row__head" type="button" data-expand="chatgpt" aria-expanded="false">
+                <span class="ai-name">ChatGPT</span>
+                <span class="ai-best">Questions & writing</span>
+                <span class="ai-free">✓ Yes (with account)</span>
+                <span class="ai-ease">🟢 Easy</span>
+              </button>
+              <div class="ai-row__body" id="ai_chatgpt" hidden>
+                <h3>CHATGPT GUIDE</h3>
+                <p><strong>What it is:</strong> The most popular AI for conversation.</p>
+
+                <div class="platform">
+                  <h4>📱 iPhone / iPad</h4>
+                  <ol class="steps">
+                    <li data-i18n-html="pages.ai.chatgpt.ios.s1">Open <strong>App Store</strong> (blue icon with “A”).</li>
+                    <li data-i18n-html="pages.ai.chatgpt.ios.s2">Tap <strong>Search</strong> (magnifying glass).</li>
+                    <li data-i18n-html="pages.ai.chatgpt.ios.s3">Type <strong>ChatGPT</strong>.</li>
+                    <li data-i18n-html="pages.ai.chatgpt.ios.s4">Tap <strong>Get</strong> then <strong>Install</strong>.</li>
+                    <li data-i18n-html="pages.ai.chatgpt.ios.s5">Open and tap <strong>Sign Up</strong>.</li>
+                  </ol>
+                  <div class="diagram">[iPhone Screenshot Here] App Store search</div>
+                </div>
+
+                <div class="platform">
+                  <h4>📱 Android Phone</h4>
+                  <ol class="steps">
+                    <li data-i18n-html="pages.ai.chatgpt.android.s1">Open <strong>Play Store</strong> (colorful triangle).</li>
+                    <li data-i18n-html="pages.ai.chatgpt.android.s2">Tap the search bar.</li>
+                    <li data-i18n-html="pages.ai.chatgpt.android.s3">Type <strong>ChatGPT</strong>.</li>
+                    <li data-i18n-html="pages.ai.chatgpt.android.s4">Tap <strong>Install</strong>.</li>
+                    <li data-i18n-html="pages.ai.chatgpt.android.s5">Open and create an account.</li>
+                  </ol>
+                  <div class="diagram">[Android Screenshot Here] Play Store search</div>
+                </div>
+
+                <div class="platform">
+                  <h4>💻 Computer</h4>
+                  <ol class="steps">
+                    <li data-i18n-html="pages.ai.chatgpt.web.s1">Open a web browser (Chrome, Safari, Edge).</li>
+                    <li data-i18n-html="pages.ai.chatgpt.web.s2">Go to: <code>chat.openai.com</code></li>
+                    <li data-i18n-html="pages.ai.chatgpt.web.s3">Click <strong>Sign up</strong>.</li>
+                    <li data-i18n-html="pages.ai.chatgpt.web.s4">Follow the instructions.</li>
+                  </ol>
+                  <div class="diagram">[Computer Screenshot Here] Sign up page</div>
+                </div>
+
+                <h4>First Time Setup</h4>
+                <ol class="steps">
+                  <li>Create account (email needed).</li>
+                  <li>Verify email (check your inbox).</li>
+                  <li>Log in for first time.</li>
+                  <li>Try your first question: <strong>“Hello!”</strong></li>
+                </ol>
+                <div class="diagram">[Setup Screenshots Here] Account → Verify → First chat</div>
+
+                <div class="warn warn--yellow" role="note" aria-label="Safety tips">
+                  <strong>⚠️ Safety Tips</strong>
+                  <ul>
+                    <li>Never share: passwords, credit card numbers, home address.</li>
+                    <li>AI can make mistakes.</li>
+                    <li>Good for: ideas, explanations, simple help.</li>
+                  </ul>
+                </div>
+
+                <!-- Interactive phone simulator (beginner-friendly, tap-through) -->
+                <div class="simwrap" id="simwrap">
+                  <div class="simwrap__head">
+                    <h4>Interactive Phone Simulator: Installing an AI app</h4>
+                    <p class="detail">Tap “Next” and follow the glowing highlight. You can switch tools (ChatGPT, Gemini, Copilot, Claude, Perplexity).</p>
+                  </div>
+
+                  <div class="simwrap__controls">
+                    <label class="simlabel" for="simTool">Choose an AI tool:</label>
+                    <select id="simTool" class="simselect">
+                      <option value="chatgpt" selected>ChatGPT</option>
+                      <option value="gemini">Google Gemini</option>
+                      <option value="copilot">Microsoft Copilot</option>
+                      <option value="claude">Claude</option>
+                      <option value="perplexity">Perplexity</option>
+                    </select>
+                  </div>
+
+                  <div class="sim" id="aiSim" role="region" aria-label="Phone simulator">
+                    <div class="phone">
+                      <div class="phone__notch" aria-hidden="true"></div>
+                      <div class="phone__screen" id="simScreen" aria-label="Simulated phone screen">
+                        <!-- Screen pages are rendered by ai.js -->
+                        <div id="simCanvas" class="simcanvas"></div>
+                        <!-- Highlight overlay (positioned box) -->
+                        <div id="simHighlight" class="simhighlight" aria-hidden="true"></div>
+                      </div>
+                    </div>
+
+                    <div class="simside">
+                      <div class="simstep">
+                        <div class="simstep__title" id="simStepTitle">Step</div>
+                        <div class="simstep__text" id="simStepText">Instruction</div>
+                      </div>
+
+                      <div class="whatif" id="simWhatIf">
+                        <div class="whatif__title">What to do if…</div>
+                        <!-- What-if items are rendered by ai.js -->
+                        <div id="simWhatIfList"></div>
+                      </div>
+
+                      <div class="simnav">
+                        <button class="pill" id="simPrev" type="button">Back</button>
+                        <div class="simdots" id="simDots" aria-label="Steps"></div>
+                        <button class="pill primary" id="simNext" type="button">Next</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="listen-btn pill" data-listen="#ai_chatgpt">Listen</button>
+              </div>
+            </article>
+
+            <article class="ai-row" role="listitem">
+              <button class="ai-row__head" type="button" data-expand="gemini" aria-expanded="false">
+                <span class="ai-name">Google Gemini</span>
+                <span class="ai-best">Everyday questions</span>
+                <span class="ai-free">✓ Yes</span>
+                <span class="ai-ease">🟢 Easy</span>
+              </button>
+              <div class="ai-row__body" id="ai_gemini" hidden>
+                <h3>GOOGLE GEMINI GUIDE</h3>
+                <p data-i18n-html="pages.ai.gemini.what"><strong>What it is:</strong> Google’s AI — good for everyday questions.</p>
+
+                <div class="platform">
+                  <h4>📱 iPhone / iPad</h4>
+                  <ol class="steps">
+                    <li data-i18n-html="pages.ai.gemini.ios.s1">App Store → Search <strong>Google Gemini</strong></li>
+                    <li data-i18n-html="pages.ai.gemini.ios.s2">Install → Open</li>
+                    <li data-i18n-html="pages.ai.gemini.ios.s3">Sign in with Google account (optional)</li>
+                  </ol>
+                  <div class="diagram">[iPhone Screenshot Here] Gemini install</div>
+                </div>
+
+                <div class="platform">
+                  <h4>📱 Android Phone</h4>
+                  <p data-i18n-html="pages.ai.gemini.android.p1">Often pre-installed. Check for <strong>Gemini</strong> or <strong>Google Assistant</strong>.</p>
+                  <p data-i18n-html="pages.ai.gemini.android.p2">If not: Play Store → <strong>Google Gemini</strong> → Install</p>
+                  <div class="diagram">[Android Screenshot Here] Gemini / Assistant</div>
+                </div>
+
+                <div class="platform">
+                  <h4>💻 Computer</h4>
+                  <ol class="steps">
+                    <li data-i18n-html="pages.ai.gemini.web.s1">Use Chrome (recommended).</li>
+                    <li data-i18n-html="pages.ai.gemini.web.s2">Go to: <code>gemini.google.com</code></li>
+                    <li data-i18n-html="pages.ai.gemini.web.s3">Sign in with Google account.</li>
+                  </ol>
+                  <div class="diagram">[Computer Screenshot Here] Gemini website</div>
+                </div>
+
+                <h4>Special Features</h4>
+                <ul>
+                  <li data-i18n-html="pages.ai.gemini.features.s1">✓ Can read text aloud (if you allow)</li>
+                  <li data-i18n-html="pages.ai.gemini.features.s2">✓ Connects to Google services</li>
+                  <li data-i18n-html="pages.ai.gemini.features.s3">✓ Voice commands: “Hey Google, …”</li>
+                </ul>
+
+                <div class="practice" data-i18n-html="pages.ai.gemini.practice">Practice: Try saying: <strong>“Hey Google, what’s the weather today?”</strong></div>
+
+                <button class="listen-btn pill" data-listen="#ai_gemini">Listen</button>
+              </div>
+            </article>
+
+            <article class="ai-row" role="listitem">
+              <button class="ai-row__head" type="button" data-expand="copilot" aria-expanded="false">
+                <span class="ai-name">Microsoft Copilot</span>
+                <span class="ai-best">Computer help</span>
+                <span class="ai-free">✓ Yes</span>
+                <span class="ai-ease">🟡 Medium</span>
+              </button>
+              <div class="ai-row__body" id="ai_copilot" hidden>
+                <h3>MICROSOFT COPILOT GUIDE</h3>
+                <p data-i18n-html="pages.ai.copilot.what"><strong>What it is:</strong> Good for computer help and documents.</p>
+
+                <div class="platform">
+                  <h4>💻 Windows Computer</h4>
+                  <p data-i18n-html="pages.ai.copilot.windows.p1">Often already installed. Look for the Copilot icon on the taskbar (blue circle).</p>
+                  <p data-i18n-html="pages.ai.copilot.windows.p2">Or try: <strong>Windows key + C</strong> (if supported).</p>
+                  <div class="diagram">[Windows Screenshot Here] Copilot icon</div>
+                </div>
+
+                <div class="platform">
+                  <h4>📱 iPhone / iPad</h4>
+                  <p data-i18n-html="pages.ai.copilot.ios.p1">App Store → <strong>Microsoft Copilot</strong> → Install</p>
+                  <div class="diagram">[iPhone Screenshot Here] Copilot install</div>
+                </div>
+
+                <div class="platform">
+                  <h4>📱 Android Phone</h4>
+                  <p data-i18n-html="pages.ai.copilot.android.p1">Play Store → <strong>Microsoft Copilot</strong> → Install</p>
+                  <div class="diagram">[Android Screenshot Here] Copilot install</div>
+                </div>
+
+                <div class="platform">
+                  <h4>💻 Web Browser</h4>
+                  <p data-i18n-html="pages.ai.copilot.web.p1">Go to: <code>copilot.microsoft.com</code></p>
+                  <div class="diagram">[Computer Screenshot Here] Copilot website</div>
+                </div>
+
+                <h4>Best Uses</h4>
+                <ul>
+                  <li data-i18n-html="pages.ai.copilot.uses.s1">✓ “Help me write an email”</li>
+                  <li data-i18n-html="pages.ai.copilot.uses.s2">✓ “Explain this computer error”</li>
+                  <li data-i18n-html="pages.ai.copilot.uses.s3">✓ “Create a schedule for my week”</li>
+                </ul>
+
+                <button class="listen-btn pill" data-listen="#ai_copilot">Listen</button>
+              </div>
+            </article>
+
+            <article class="ai-row" role="listitem">
+              <button class="ai-row__head" type="button" data-expand="claude" aria-expanded="false">
+                <span class="ai-name">Claude</span>
+                <span class="ai-best">Long conversations</span>
+                <span class="ai-free">✓ Yes (limited)</span>
+                <span class="ai-ease">🟡 Medium</span>
+              </button>
+              <div class="ai-row__body" id="ai_claude" hidden>
+                <h3>CLAUDE (Anthropic) — Quick Guide</h3>
+                <p data-i18n-html="pages.ai.claude.what"><strong>What it is:</strong> Great for long conversations and careful writing.</p>
+                <ul>
+                  <li data-i18n-html="pages.ai.claude.links.s1">📱 App Store / Play Store: search <strong>Claude</strong></li>
+                  <li data-i18n-html="pages.ai.claude.links.s2">💻 Website: <code>claude.ai</code></li>
+                </ul>
+                <div class="diagram">[Screenshots Here] App search / website</div>
+                <button class="listen-btn pill" data-listen="#ai_claude">Listen</button>
+              </div>
+            </article>
+
+            <article class="ai-row" role="listitem">
+              <button class="ai-row__head" type="button" data-expand="perplexity" aria-expanded="false">
+                <span class="ai-name">Perplexity</span>
+                <span class="ai-best">Finding information</span>
+                <span class="ai-free">✓ Yes</span>
+                <span class="ai-ease">🟢 Easy</span>
+              </button>
+              <div class="ai-row__body" id="ai_perplexity" hidden>
+                <h3>PERPLEXITY — Quick Guide</h3>
+                <p data-i18n-html="pages.ai.perplexity.what"><strong>What it is:</strong> A search-style AI that can show sources for answers.</p>
+                <ul>
+                  <li data-i18n-html="pages.ai.perplexity.links.s1">📱 App Store / Play Store: <strong>Perplexity AI</strong></li>
+                  <li data-i18n-html="pages.ai.perplexity.links.s2">💻 Website: <code>perplexity.ai</code></li>
+                  <li data-i18n-html="pages.ai.perplexity.links.s3">Tip: You can use the web version if you don’t want to create an account.</li>
+                </ul>
+                <div class="diagram">[Screenshots Here] Perplexity app / website</div>
+                <button class="listen-btn pill" data-listen="#ai_perplexity">Listen</button>
+              </div>
+            </article>
+          </div>
+
+          <div class="navrow">
+            <button class="pill" data-prev>Back</button>
+            <button class="pill" data-home>Home (Change Topic)</button>
+            <button class="pill primary" data-next>Next</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: TROUBLESHOOT INSTALL -->
+      <section class="section" data-step="2">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">🛠</span>
+          <span class="section__title">3. Common installation problems</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+
+        <div class="section__body" data-body hidden>
+          <h2>Having Trouble Installing?</h2>
+
+          <div class="problem">
+            <div class="problem__q">❌ App Store asks for password</div>
+            <div class="problem__a">Solution: You may need your Apple ID password. Ask a family member to help.</div>
+          </div>
+
+          <div class="problem">
+            <div class="problem__q">❌ Phone says “not enough space”</div>
+            <div class="problem__a">Solution: Delete old photos or apps you don’t use.</div>
+          </div>
+
+          <div class="problem">
+            <div class="problem__q">❌ Can’t create account</div>
+            <div class="problem__a">Solution: Try a simpler password. Or ask family to help set it up.</div>
+          </div>
+
+          <div class="problem">
+            <div class="problem__q">❌ Don’t want to use email</div>
+            <div class="problem__a">Solution: Some AIs work without an account (example: Perplexity web version).</div>
+          </div>
+
+          <button class="listen-btn pill" data-listen="#secTrouble">Listen</button>
+          <div id="secTrouble" class="sr-only">
+            Having trouble installing? If the App Store asks for a password, you may need your Apple ID password. If your phone says not enough space, delete old photos or apps. If you cannot create an account, try a simpler password or ask family to help. If you do not want to use email, use a web version like Perplexity.
+          </div>
+
+          <div class="navrow">
+            <button class="pill" data-prev>Back</button>
+            <button class="pill" data-home>Home (Change Topic)</button>
+            <button class="pill primary" data-next>Next</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: PRACTICE -->
+      <section class="section" data-step="3">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">✅</span>
+          <span class="section__title">4. Practice: Try these AI prompts</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+
+        <div class="section__body" data-body hidden>
+          <h2>Try These AI Prompts</h2>
+          <p class="big">Tap a button. Then copy the prompt into your AI app.</p>
+
+          <div class="prompt-grid">
+            <button class="prompt" type="button" data-prompt="recipe">🍲 What’s a good recipe for chicken?</button>
+            <button class="prompt" type="button" data-prompt="thanks">🇫🇷 How do I say “thank you” in French?</button>
+            <button class="prompt" type="button" data-prompt="birthday">🎂 Write a birthday message for my granddaughter</button>
+            <button class="prompt" type="button" data-prompt="microwave">📘 Explain how a microwave works simply</button>
+          </div>
+
+          <div class="practice-card" id="practiceCard" hidden>
+            <h3 id="practiceTitle">Prompt</h3>
+            <div class="practice-row">
+              <div class="practice-col">
+                <div class="label">1) What to type</div>
+                <div class="copybox" id="promptText"></div>
+                <button class="pill" id="btnCopy">Copy</button>
+              </div>
+              <div class="practice-col">
+                <div class="label">2) Example AI response</div>
+                <div class="copybox" id="exampleText"></div>
+              </div>
+            </div>
+
+            <div class="label">3) Now you try!</div>
+            <textarea id="tryBox" class="trybox" rows="4" placeholder="Type your prompt here (or paste it)."></textarea>
+
+            <button class="listen-btn pill" data-listen="#practiceCard">Listen</button>
+          </div>
+
+          <div class="navrow">
+            <button class="pill" data-prev>Back</button>
+            <button class="pill" data-home>Home (Change Topic)</button>
+            <button class="pill primary" data-next>Next</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4B: VOICE PRACTICE -->
+      <section class="section" data-step="3">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">🎙️</span>
+          <span class="section__title">4b. Voice Practice: Try voice commands</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+        <div class="section__body" data-body hidden>
+          <p class="big">Choose an assistant, listen to an example, then try saying it yourself. Recordings stay in your browser (not uploaded).</p>
+
+          <div class="voicebar">
+            <label for="voiceTool" class="simlabel">Assistant:</label>
+            <select id="voiceTool" class="simselect">
+              <option value="google" selected>Google (Gemini / Assistant)</option>
+              <option value="alexa">Amazon Alexa</option>
+              <option value="siri">Apple Siri</option>
+              <option value="chatgpt">ChatGPT (in-app voice)</option>
+            </select>
+          </div>
+
+          <div id="voiceList" class="voicelist" aria-live="polite"></div>
+
+          <button class="listen-btn pill" data-listen="#secVoice">Listen</button>
+          <div id="secVoice" class="sr-only">This section lets you hear examples of voice commands and optionally record yourself. Change assistant with the menu. Use the play button to hear, the record button to try, and look for the volume meter and clarity feedback.</div>
+
+          <div class="navrow">
+            <button class="pill" data-prev>Back</button>
+            <button class="pill" data-home>Home (Change Topic)</button>
+            <button class="pill primary" data-next>Next</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 1B: WHICH AI QUIZ -->
+      <section class="section" data-step="1">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">🧠</span>
+          <span class="section__title">2b. Which AI is right for you? (Quick quiz)</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+        <div class="section__body" data-body hidden>
+          <div class="card2">
+            <h3>Question 1: What do you need most help with?</h3>
+            <label class="quiz-opt"><input type="radio" name="aiq1" value="A" /> A) Writing messages and emails</label>
+            <label class="quiz-opt"><input type="radio" name="aiq1" value="B" /> B) Answering quick questions</label>
+            <label class="quiz-opt"><input type="radio" name="aiq1" value="C" /> C) Computer problems</label>
+            <label class="quiz-opt"><input type="radio" name="aiq1" value="D" /> D) Just exploring technology</label>
+          </div>
+
+          <div class="card2">
+            <h3>Question 2: What device do you use most?</h3>
+            <label class="quiz-opt"><input type="radio" name="aiq2" value="A" /> A) iPhone</label>
+            <label class="quiz-opt"><input type="radio" name="aiq2" value="B" /> B) Android phone</label>
+            <label class="quiz-opt"><input type="radio" name="aiq2" value="C" /> C) Computer</label>
+            <label class="quiz-opt"><input type="radio" name="aiq2" value="D" /> D) Tablet</label>
+          </div>
+
+          <button id="btnAiReco" class="pill primary" type="button">See Recommendation</button>
+          <div id="aiRecoResult" class="reco" aria-live="polite"></div>
+          <button id="btnOpenGuide" class="pill" type="button" hidden>Open the Guide</button>
+
+          <button class="listen-btn pill" data-listen="#secReco">Listen</button>
+          <div id="secReco" class="sr-only">Answer two quick questions to get a recommendation: ChatGPT if you picked mostly A, Google Gemini for mostly B, Microsoft Copilot for mostly C, or Perplexity for mostly D.</div>
+
+          <div class="navrow">
+            <button class="pill" data-prev>Back</button>
+            <button class="pill" data-home>Home (Change Topic)</button>
+            <button class="pill primary" data-next>Next</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: SAFETY & PRIVACY -->
+      <section class="section" data-step="4">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">🔴</span>
+          <span class="section__title">5. Safety & Privacy Center</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+
+        <div class="section__body" data-body hidden>
+          <div class="warn warn--red" role="note" aria-label="Always remember">
+            <strong>🔴 ALWAYS REMEMBER</strong>
+            <ol class="steps">
+              <li>AI doesn’t know you personally.</li>
+              <li>Don’t believe everything AI says — check important facts.</li>
+              <li>Never share private information.</li>
+              <li>It’s okay to say “I don’t understand” and ask for help.</li>
+            </ol>
+          </div>
+
+          <div class="warn warn--red" role="note" aria-label="Good questions vs bad questions">
+            <strong>🔴 Good Questions vs. Bad Questions</strong>
+            <div class="two">
+              <div>
+                <div class="label">✓ Good</div>
+                <ul>
+                  <li>“Recipe ideas for diabetes”</li>
+                  <li>“How to video call my family”</li>
+                </ul>
+              </div>
+              <div>
+                <div class="label">✗ Avoid</div>
+                <ul>
+                  <li>“My credit card number is …”</li>
+                  <li>“My home address is …”</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <button class="listen-btn pill" data-listen="#secSafety">Listen</button>
+          <div id="secSafety" class="sr-only">
+            Always remember: AI does not know you personally. Do not believe everything it says, check important facts. Never share private information. It is okay to say I do not understand and ask for help. Good questions include recipe ideas for diabetes and how to video call my family. Avoid sharing your credit card number or home address.
+          </div>
+
+          <div class="navrow">
+            <button class="pill" data-prev>Back</button>
+            <button class="pill" data-home>Home (Change Topic)</button>
+            <a class="pill primary" href="index.html#skill_bank">Next Topic</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: GETTING HELP -->
+      <section class="section" data-step="4">
+        <button class="section__head" type="button" data-toggle aria-expanded="false">
+          <span class="section__icon" aria-hidden="true">🧑‍🤝‍🧑</span>
+          <span class="section__title">6. Getting help</span>
+          <span class="section__chev" aria-hidden="true">▸</span>
+        </button>
+
+        <div class="section__body" data-body hidden>
+          <h2>Need Help Setting Up?</h2>
+          <ul class="big">
+            <li><strong>Family Assistance:</strong> “Show this to a family member.”</li>
+            <li><strong>Community Help:</strong> Visit local library tech help hours.</li>
+            <li><strong>Simple Alternative:</strong> Try Google search first — it can be easier.</li>
+          </ul>
+
+          <div class="card2">
+            <h3>Printable Checklist</h3>
+            <ul class="checklist">
+              <li><label><input type="checkbox" /> Choose an AI tool</label></li>
+              <li><label><input type="checkbox" /> Install the app</label></li>
+              <li><label><input type="checkbox" /> Create account (if needed)</label></li>
+              <li><label><input type="checkbox" /> Try first question</label></li>
+              <li><label><input type="checkbox" /> Save login info safely</label></li>
+            </ul>
+          </div>
+
+          <div class="bonus">
+            <h3>Bonus: Other AI tools</h3>
+            <div class="diagram">[Optional Section Placeholder]</div>
+            <ul>
+              <li><strong>Claude:</strong> <code>claude.ai</code> (good for long conversations)</li>
+              <li><strong>Perplexity:</strong> <code>perplexity.ai</code> (good for finding information)</li>
+              <li><strong>Canadian examples:</strong> ADA (<code>ada.cx</code>) for health questions, RBC NOMI for RBC customers</li>
+            </ul>
+          </div>
+
+          <button class="listen-btn pill" data-listen="#secHelp">Listen</button>
+          <div id="secHelp" class="sr-only">
+            Need help setting up? Ask a family member, visit a local library for tech help hours, or try a Google search first. Checklist: choose an AI tool, install the app, create an account if needed, try a first question, and save your login info safely.
+          </div>
+
+          <div class="navrow">
+            <button class="pill" data-prev>Back</button>
+            <button class="pill" data-home>Home (Change Topic)</button>
+            <a class="pill primary" href="index.html">Back to Home</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="card2" aria-label="Completion">
+        <h2>Finish this lesson</h2>
+        <div id="completionPanel"></div>
+      </section>
+
+      <!-- Always-visible bottom nav -->
+      <nav class="bottom-nav">
+        <a class="pill" data-prev href="index.html">Back</a>
+        <a class="pill" data-home href="index.html">Home</a>
+        <a class="pill primary" data-next href="index.html#skill_bank">Next Topic</a>
+      </nav>
+    </main>
+
+    <script src="translations.js"></script>
+    <script src="features/i18n.js"></script>
+    <script src="tts.js"></script>
+    <script src="progress.js"></script>
+    <script src="ai.js"></script>
+  </body>
+</html>
